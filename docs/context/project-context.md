@@ -4,7 +4,7 @@
 
 ## 项目定位
 
-`ai-wakatime-tool` 是一个面向个人仓库的 WakaTime 周数据归档和 GitHub README 卡片生成工具。
+`Dev Stats` 是一个面向个人仓库的 WakaTime 周数据归档和 GitHub README 卡片生成工具。仓库和 package 名称使用 `dev-stats`。
 
 当前版本不做公开服务，不做 OAuth，不接第三方数据库。它通过本地或 GitHub Actions 中的 `WAKATIME_API_KEY` 拉取 WakaTime 数据，把每周快照留存在仓库文件里，并生成可直接嵌入 README 的静态 SVG。
 

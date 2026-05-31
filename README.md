@@ -1,6 +1,6 @@
-# AI WakaTime Tool
+# Dev Stats
 
-Archive weekly WakaTime data into this repository and render GitHub README-friendly SVG cards for language coding time and AI coding metrics.
+Archive WakaTime coding stats into this repository and render GitHub README-friendly SVG cards for language coding time and AI coding metrics.
 
 ## Setup
 

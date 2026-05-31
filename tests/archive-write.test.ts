@@ -9,7 +9,7 @@ import type { WeeklyArchive } from "../src/wakatime/types.js";
 
 describe("writeArchiveArtifacts", () => {
   it("writes year/month week JSON, multiple SVG cards, and HTML preview", async () => {
-    const root = await mkdtemp(join(tmpdir(), "ai-wakatime-tool-"));
+    const root = await mkdtemp(join(tmpdir(), "dev-stats-"));
     const archive = {
       schemaVersion: 1,
       generatedAt: "2026-05-30T00:00:00.000Z",

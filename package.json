@@ -1,9 +1,9 @@
 {
-  "name": "ai-wakatime-tool",
+  "name": "dev-stats",
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Archive WakaTime weekly data and render AI-aware README SVG cards.",
+  "description": "Archive WakaTime coding stats and render README SVG cards.",
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "test": "vitest run",

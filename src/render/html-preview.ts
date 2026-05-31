@@ -20,7 +20,7 @@ export function renderHtmlPreview(cardFiles = CARD_FILES): string {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>AI WakaTime Tool Preview</title>
+    <title>Dev Stats Preview</title>
     <style>
       :root {
         color-scheme: light;

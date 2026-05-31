@@ -2,7 +2,7 @@
 
 ## Goal
 
-Create a complete first version of `ai-wakatime-tool` that can fetch WakaTime weekly data, retain it in the repository, generate GitHub README-friendly SVG cards, and verify the implementation with tests, linting, formatting, build, and browser preview.
+Create a complete first version of `dev-stats` that can fetch WakaTime weekly data, retain it in the repository, generate GitHub README-friendly SVG cards, and verify the implementation with tests, linting, formatting, build, and browser preview.
 
 ## Assumptions
 
