@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "data": {
+      "range": "last_7_days",
+      "is_up_to_date": true,
+      "total_seconds": 28140,
+      "human_readable_total": "7 hrs 49 mins",
+      "daily_average": 4020,
+      "human_readable_daily_average": "1 hr 7 mins",
+      "ai_additions": 320,
+      "ai_deletions": 44,
+      "human_additions": 1200,
+      "human_deletions": 200,
+      "ai_line_changes_total": 364,
+      "ai_agent_total_cost": 1.24,
+      "ai_input_tokens": 18240,
+      "ai_output_tokens": 51200,
+      "ai_prompt_events_total": 96,
+      "ai_sessions": 18,
+      "human_additions": 1200,
+      "human_deletions": 200,
+      "ai_agent_breakdown": [
+        {
+          "name": "Claude Code",
+          "lines": 260,
+          "cost": 0.8
+        },
+        {
+          "name": "Codex",
+          "lines": 104,
+          "cost": 0.44
+        }
+      ],
+      "languages": [
+        {
+          "name": "TypeScript",
+          "total_seconds": 14280,
+          "percent": 50.75,
+          "text": "3 hrs 58 mins",
+          "hours": 3,
+          "minutes": 58
+        },
+        {
+          "name": "Rust & Tools",
+          "total_seconds": 7200,
+          "percent": 25.58,
+          "text": "2 hrs",
+          "hours": 2,
+          "minutes": 0
+        },
+        {
+          "name": "Markdown",
+          "total_seconds": 3660,
+          "percent": 13.01,
+          "text": "1 hr 1 min",
+          "hours": 1,
+          "minutes": 1
+        }
+      ]
+    }
+  },
+  "summaries": {
+    "data": [
+      {
+        "range": {
+          "date": "2026-05-25"
+        },
+        "grand_total": {
+          "total_seconds": 3600,
+          "text": "1 hr",
+          "ai_additions": 50,
+          "ai_deletions": 5,
+          "ai_input_tokens": 1000,
+          "ai_output_tokens": 3000,
+          "ai_prompt_events_total": 8,
+          "ai_sessions": 2
+        },
+        "languages": [
+          {
+            "name": "TypeScript",
+            "total_seconds": 3600,
+            "percent": 100,
+            "text": "1 hr"
+          }
+        ]
+      },
+      {
+        "range": {
+          "date": "2026-05-26"
+        },
+        "grand_total": {
+          "total_seconds": 5400,
+          "text": "1 hr 30 mins",
+          "ai_additions": 70,
+          "ai_deletions": 10,
+          "ai_input_tokens": 2500,
+          "ai_output_tokens": 6000,
+          "ai_prompt_events_total": 12,
+          "ai_sessions": 3
+        },
+        "languages": [
+          {
+            "name": "Markdown",
+            "total_seconds": 5400,
+            "percent": 100,
+            "text": "1 hr 30 mins"
+          }
+        ]
+      }
+    ]
+  },
+  "userAgents": {
+    "data": [
+      {
+        "id": "agent-1",
+        "value": "wakatime/v1",
+        "editor": "VS Code",
+        "version": "1.0.0",
+        "os": "macOS",
+        "last_seen_at": "2026-05-30T00:00:00Z",
+        "is_browser_extension": false,
+        "is_desktop_app": false,
+        "created_at": "2026-05-01T00:00:00Z"
+      }
+    ]
+  }
+}
