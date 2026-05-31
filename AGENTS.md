@@ -1,53 +1,76 @@
-# coding status
+# AGENTS.md
 
-这个项目是围绕 [wakatime](https://wakatime.com) 来进行功能开发的。
+## 基本要求
 
-## 资料
+- 使用中文和用户交流。
+- 终端命令默认使用 `rtk` 前缀；细节见 `/Users/sunss/.codex/RTK.md`。
+- 不要泄露、打印、提交或写入公开产物中的 `WAKATIME_API_KEY`。
+- 遇到账号、权限、密钥、远程发布或不可逆操作问题，先停下来问用户。
+- 只做当前任务需要的改动，不顺手重构无关代码。
 
-现在 wakatime 统计的信息其实更多、更强大了，基于此，我们要开发更强大的应用来充分利用这些数据，尤其是现在有了 AI 相关的统计数据了。
+## 项目定位
 
-- [wakaTIme API](https://wakatime.com/developers): 官方文档
-- [wakatime-cli](https://github.com/wakatime/wakatime-cli): Command line interface used by all WakaTime text editor plugins
-- [waka-box](https://github.com/JS-banana/waka-box): 这个是我目前在使用的，一个基于 wakatime 的 weekly development 的统计，展示周内各种编程语言所占开发时间是多少（例如：Rust 3 hrs 5 mins），主要是通过 APIKEY 的方式查询数据
+这是一个面向个人仓库的 WakaTime 周数据归档与 GitHub README SVG 卡片生成工具。当前版本通过 WakaTime API 拉取周数据，归一化后写入仓库 JSON，并生成可直接嵌入 README 的静态 SVG。
 
-其实，我的 [github 主页](https://github.com/JS-banana/JS-banana)就有使用到了 waka-box、github-readme-stats 这两类工具
+当前不是公开多用户服务，不做 OAuth，不接数据库，不默认使用 Gist 或 GitHub Issues 归档。
 
-## 功能
+## 上下文读取顺序
 
-我想要的主要是两个功能。
+非平凡任务先按需读取这些文件：
 
-1. 可以查看编程语言的时间统计，还有 AI 相关数据的统计
-2. 可以把每周的详细数据的留存到仓库中。
+1. `docs/context/project-context.md`：当前实现状态、产物、数据结构、命令和后续边界。
+2. `docs/research/wakatime-api-research.md`：WakaTime API、数据来源、保留范围和取舍依据。
+3. `docs/plan/development-plan.md`：第一版开发计划、架构和成功标准。
+4. 相关源码与测试文件。
 
-这样的话，在年底的时候，我们可以获取到整个时间线的所有数据。
-为什么这样做？因为，免费用户只能查看到周的数据，我们这样做，相当于把每周能查看的自己主动维护了起来。
+不要把历史需求全文继续堆进 `AGENTS.md`。新上下文优先放到 `docs/context/`，研究内容放到 `docs/research/`，计划放到 `docs/plan/`。
 
-基于以上两个核心功能，可以进一步拓展的功能有：
+## 工作方式
 
-1. 创建一个类似 waka-box 的这类项目，可以作为展示在 github 主页使用的，用来美观的项目，对于用户来说，使用方式要足够方便，以 github-readme-stats 项目这种方式为指导方向
-2. 根据全部的统计数据，可以再开发一个可视化统计和年度分析之类的相关项目，当然，这些功能建立在维护和留存好每周的数据的情况下
+- 编码前说明关键假设；如果需求存在多个合理解释，先把分歧说清楚。
+- 优先选择最小可行实现，不添加未要求的配置、抽象或功能。
+- 修改已有代码时匹配当前风格，不清理与任务无关的旧代码。
+- 功能和 bugfix 按 TDD 推进：先补能证明目标的测试，再实现。
+- 如果第一次修复失败，继续排查真实原因，不用猜测覆盖错误。
+- 影响 SVG 或预览效果时，除了测试以外还要做浏览器验证。
 
-## TODO
+## 数据与产物约定
 
-**根据任务进度，需要及时更新这里的 TODO 信息，如果是研究分析，那么需要合理的维护在 docs 对应子目录下**
+- 周归档路径固定为 `data/YYYY/MM/YYYY-WW.json`。
+- JSON 只保留展示和后续统计需要的归一化字段。
+- 默认不要保存完整 WakaTime 原始响应。
+- 默认不要保存 `diagnostics`。
+- SVG 产物包括语言卡、AI coding 卡、AI agents 卡，以及 `tokyonight` 主题变体。
+- 预览页写入 `public/preview.html`。
 
-- [ ] 功能和需求调研：完整的研究 wakatime 的官方文档，收集到我们开发者可以使用到的、能够查询到哪些数据和信息，主要是使用 APIKEY 的方式，相关研究和分析报告。
-- [ ] wakatime 目前提供有各种 IDE 的 plugin，还有 claude code 的，对于我们开发功能来说，这些官方插件已经足够覆盖了，不过对于 wakatime-cli 可以研究下，对于我们项目来说，是否有考虑的必要
-- [ ] 研究数据维护方式：我们需要把每周的数据都留存维护起来，对于项目如何维护，我们不考虑第三方数据库，只考虑 github 生态，仓库文件、仓库 issues、gist 这三种方式，我目前比较倾向以仓库文件的方式，这样数据始终在项目中，对于其他功能的拓展都比较方便（如果后续开发专门展示的网站来漂亮的呈现这些数据）
-- [ ] 研究如何开发这个类 waka-box 项目，这个项目，目前看来代码比较老旧，数据展示方式也并不美观，可以参考 [github-readme-stats](https://github.com/anuraghazra/github-readme-stats) 这个项目的实现方式和维护方式，无论是从项目维护方面来说，还是用户使用方面来说，这个项目都非常棒，实现思路也是非常好，图片作为最终载体，可以有更丰富的内容和色彩，最终以图片的方式被使用是非常聪明的想法。尤其现在 AI 非常强大，完全可以事先编排好 svg 模板，最终根据数据和配置渲染出不同的结果（开发前深入研究）
+如果要改变数据 shape、归档路径、卡片文件名或公开产物内容，必须同步更新测试、README 和上下文文档。
 
-## 目标
+## 常用命令
 
-1. 完成以上分析和调研，输出完整和清晰的研究报告（完成标准：这些资料是能够充分指导接下来的开发，提供判断依据、方案参考）
-2. 基于研究报告和数据资料，深度综合思考，给出确定的可执行方案，确定开发计划（完成标准：制定的方案符合 waka-box 这类功能，但是不仅是编程语言时长数据，还有 AI 使用时长、tokens、AI 占比等，项目设计、工程代码设计以及功能和效果上是遵循这个项目 github-readme-stats 的方式，提供最终的开发方案）
-3. 完成项目创建，工程化齐全（完成标准：项目创建工程完善，至少有 test/eslint/prettier）
-4. 项目需要引入测试，覆盖开发和编写的代码和逻辑，测试用例要全部通过，使用 tdd 的方式，开发和写代码，都要有测试（完成标准：测试用例全部通过）
-4. 项目开发和功能实现（完成标准：我上述描述的功能和 TODO 全部完成，数据正确，本地机器跑通，浏览器验证通过）
+```bash
+npm install
+npm test
+npm run lint
+npm run format:check
+npm run build
+npm run update
+npm run preview
+```
 
-## 规则
+功能修改完成前至少运行：
 
-为了目标可以使用各种工具，发挥主观能动性。
+```bash
+npm test
+npm run lint
+npm run format:check
+npm run build
+```
 
-假如你需要使用浏览器和查看具体网站的具体信息，那么你可以使用相关工具来使用，为了能最大程度的支持你更好的完成任务。
+文档-only 修改至少运行相关格式检查。
 
-如果需要更适配的 skill 来协助推进工作进行，可以根据需要使用 find-skills 查找安装使用。
+## 文档维护
+
+- 实现状态变更时更新 `docs/context/project-context.md`。
+- API 或数据保留策略变更时更新 `docs/research/wakatime-api-research.md`。
+- 开发计划、里程碑或成功标准变更时更新 `docs/plan/development-plan.md`。
+- README 面向使用者，保持简洁；细节放入 `docs/`。
