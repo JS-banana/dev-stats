@@ -1,0 +1,43 @@
+name: Update WakaTime Archive
+
+on:
+  schedule:
+    - cron: "18 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Verify
+        run: |
+          npm test
+          npm run lint
+          npm run format:check
+          npm run build
+
+      - name: Update WakaTime artifacts
+        run: npm run update
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update wakatime archive"
+          file_pattern: "data/**/*.json assets/*.svg public/*.html"
