@@ -1,0 +1,30 @@
+{
+  "name": "ai-wakatime-tool",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Archive WakaTime weekly data and render AI-aware README SVG cards.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "format": "prettier README.md \"docs/**/*.md\" \"src/**/*.ts\" \"tests/**/*.ts\" \"*.{js,json,ts}\" \".github/**/*.yml\" --write",
+    "format:check": "prettier README.md \"docs/**/*.md\" \"src/**/*.ts\" \"tests/**/*.ts\" \"*.{js,json,ts}\" \".github/**/*.yml\" --check",
+    "update": "tsx src/cli.ts",
+    "preview": "tsx src/cli.ts --fixture tests/fixtures/wakatime-week.json"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/node": "^24.10.1",
+    "eslint": "^9.39.1",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.48.0",
+    "vitest": "^4.0.14"
+  }
+}
