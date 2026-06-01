@@ -47,9 +47,9 @@ describe("writeArchiveArtifacts", () => {
     expect(result.cards.aiPath).toBe(join(root, "assets/wakatime-ai.svg"));
     expect(result.cards.agentsPath).toBe(join(root, "assets/wakatime-agents.svg"));
     expect(result.cards.languageDarkPath).toBe(
-      join(root, "assets/wakatime-language-tokyonight.svg"),
+      join(root, "assets/wakatime-language-dark.svg"),
     );
-    expect(result.cards.aiDarkPath).toBe(join(root, "assets/wakatime-ai-tokyonight.svg"));
+    expect(result.cards.aiDarkPath).toBe(join(root, "assets/wakatime-ai-dark.svg"));
 
     const archiveJson = await readFile(result.archivePath, "utf8");
     expect(archiveJson).toContain('"id": "2026-W22"');
@@ -65,7 +65,7 @@ describe("writeArchiveArtifacts", () => {
     await expect(readFile(result.previewPath, "utf8")).resolves.toContain("wakatime-language.svg");
     await expect(readFile(result.previewPath, "utf8")).resolves.toContain("wakatime-ai.svg");
     await expect(readFile(result.previewPath, "utf8")).resolves.toContain(
-      "wakatime-language-tokyonight.svg",
+      "wakatime-language-dark.svg",
     );
   });
 });

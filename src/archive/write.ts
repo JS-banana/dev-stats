@@ -36,9 +36,9 @@ export async function writeArchiveArtifacts(
   const languagePath = join(assetsDir, "wakatime-language.svg");
   const aiPath = join(assetsDir, "wakatime-ai.svg");
   const agentsPath = join(assetsDir, "wakatime-agents.svg");
-  const languageDarkPath = join(assetsDir, "wakatime-language-tokyonight.svg");
-  const aiDarkPath = join(assetsDir, "wakatime-ai-tokyonight.svg");
-  const agentsDarkPath = join(assetsDir, "wakatime-agents-tokyonight.svg");
+  const languageDarkPath = join(assetsDir, "wakatime-language-dark.svg");
+  const aiDarkPath = join(assetsDir, "wakatime-ai-dark.svg");
+  const agentsDarkPath = join(assetsDir, "wakatime-agents-dark.svg");
   const previewPath = join(publicDir, "preview.html");
   const cards = renderAllCards(archive);
 
@@ -46,9 +46,9 @@ export async function writeArchiveArtifacts(
   await writeFile(languagePath, cards.language);
   await writeFile(aiPath, cards.ai);
   await writeFile(agentsPath, cards.agents);
-  await writeFile(languageDarkPath, cards.languageTokyonight);
-  await writeFile(aiDarkPath, cards.aiTokyonight);
-  await writeFile(agentsDarkPath, cards.agentsTokyonight);
+  await writeFile(languageDarkPath, cards.languageDark);
+  await writeFile(aiDarkPath, cards.aiDark);
+  await writeFile(agentsDarkPath, cards.agentsDark);
   await writeFile(previewPath, renderHtmlPreview());
 
   return {

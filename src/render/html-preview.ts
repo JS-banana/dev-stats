@@ -2,9 +2,9 @@ const CARD_FILES = [
   "wakatime-language.svg",
   "wakatime-ai.svg",
   "wakatime-agents.svg",
-  "wakatime-language-tokyonight.svg",
-  "wakatime-ai-tokyonight.svg",
-  "wakatime-agents-tokyonight.svg",
+  "wakatime-language-dark.svg",
+  "wakatime-ai-dark.svg",
+  "wakatime-agents-dark.svg",
 ];
 
 export function renderHtmlPreview(cardFiles = CARD_FILES): string {

@@ -54,7 +54,7 @@ describe("renderLanguageCard", () => {
   });
 
   it("supports a dark github-readme-stats style theme", () => {
-    const svg = renderLanguageCard(archive, { theme: "tokyonight" });
+    const svg = renderLanguageCard(archive, { theme: "dark" });
 
     expect(svg).toContain("Language coding time");
     expect(svg).toContain("#1a1b27");

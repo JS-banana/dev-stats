@@ -7,7 +7,7 @@ const BAR_X = 165;
 const BAR_WIDTH = 210;
 const VALUE_X = 455;
 
-export type CardThemeName = "default" | "tokyonight";
+export type CardThemeName = "light" | "dark";
 
 export interface CardRenderOptions {
   theme?: CardThemeName;
@@ -26,7 +26,7 @@ interface CardTheme {
 }
 
 const THEMES: Record<CardThemeName, CardTheme> = {
-  default: {
+  light: {
     card: "#fffefe",
     border: "#d8dee4",
     shadow: "#1b1f24",
@@ -37,7 +37,7 @@ const THEMES: Record<CardThemeName, CardTheme> = {
     barBg: "#eaeef2",
     accents: ["#0969da", "#1a7f37", "#bc4c00", "#8250df", "#bf3989"],
   },
-  tokyonight: {
+  dark: {
     card: "#1a1b27",
     border: "#30363d",
     shadow: "#000000",
@@ -63,7 +63,7 @@ function clampPercent(value: number): number {
 }
 
 function resolveTheme(options: CardRenderOptions | undefined): CardTheme {
-  return THEMES[options?.theme ?? "default"];
+  return THEMES[options?.theme ?? "light"];
 }
 
 function cardShell(
@@ -220,8 +220,8 @@ export function renderAllCards(archive: WeeklyArchive): Record<string, string> {
     language: renderLanguageCard(archive),
     ai: renderAiCodingCard(archive),
     agents: renderAgentsCard(archive),
-    languageTokyonight: renderLanguageCard(archive, { theme: "tokyonight" }),
-    aiTokyonight: renderAiCodingCard(archive, { theme: "tokyonight" }),
-    agentsTokyonight: renderAgentsCard(archive, { theme: "tokyonight" }),
+    languageDark: renderLanguageCard(archive, { theme: "dark" }),
+    aiDark: renderAiCodingCard(archive, { theme: "dark" }),
+    agentsDark: renderAgentsCard(archive, { theme: "dark" }),
   };
 }
