@@ -34,6 +34,14 @@ Dev Stats 是一个轻量级工具，用于将你的 WakaTime 每周编程统计
 
 ## 安装使用
 
+### 1. 获取 WakaTime API Key
+
+1. 如果还没有账号，请先在 [WakaTime](https://wakatime.com/) 注册。
+2. 前往 [WakaTime 个人资料设置](https://wakatime.com/settings/profile)，确保勾选了 **Display coding activity publicly**（这样 API 才能读取你的统计数据）。
+3. 前往 [WakaTime API Key 设置页面](https://wakatime.com/settings/api-key)，复制你的 API Key。
+
+### 2. 本地开发
+
 ```bash
 npm install
 cp .env.example .env
@@ -44,6 +52,15 @@ cp .env.example .env
 ```text
 WAKATIME_API_KEY=你的API密钥
 ```
+
+### 3. GitHub Actions（自动更新）
+
+1. 进入仓库的 **Settings > Secrets and variables > Actions** 页面。
+2. 点击 **New repository secret**，添加：
+   - Name: `WAKATIME_API_KEY`
+   - Secret: 第 1 步获取的 WakaTime API Key
+3. 工作流每天 UTC 01:18（北京时间 09:18）自动运行。
+4. 也可以在 **Actions** 页面手动触发。
 
 ## 常用命令
 
@@ -73,12 +90,6 @@ npm run preview       # 使用测试数据生成预览（无需 API Key）
 ![AI 编程](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai-dark.svg)
 ![AI Agents](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-agents-dark.svg)
 ```
-
-## GitHub Actions 配置
-
-1. 创建仓库 Secret，名称为 `WAKATIME_API_KEY`，值为你的 WakaTime API Key
-2. 工作流每天 UTC 01:18（北京时间 09:18）自动运行
-3. 也可以在 Actions 页面手动触发
 
 ## 项目文档
 

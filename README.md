@@ -34,6 +34,14 @@ All data is archived weekly as JSON, so you never lose historical stats even aft
 
 ## Setup
 
+### 1. Get WakaTime API Key
+
+1. Sign up at [WakaTime](https://wakatime.com/) if you haven't already.
+2. Go to your [WakaTime Profile Settings](https://wakatime.com/settings/profile) and make sure **Display coding activity publicly** is checked (this allows the API to read your stats).
+3. Go to [WakaTime API Key Settings](https://wakatime.com/settings/api-key) and copy your API key.
+
+### 2. Local Development
+
 ```bash
 npm install
 cp .env.example .env
@@ -44,6 +52,15 @@ Add your WakaTime API key to `.env`:
 ```text
 WAKATIME_API_KEY=your_key_here
 ```
+
+### 3. GitHub Actions (Automated Updates)
+
+1. Go to your repository **Settings > Secrets and variables > Actions**.
+2. Click **New repository secret** and add:
+   - Name: `WAKATIME_API_KEY`
+   - Secret: your WakaTime API key from step 1
+3. The workflow will run daily at UTC 01:18 (Beijing time 09:18).
+4. You can also trigger it manually from the **Actions** tab.
 
 ## Commands
 
@@ -73,12 +90,6 @@ Dark theme:
 ![AI coding](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai-dark.svg)
 ![AI agents](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-agents-dark.svg)
 ```
-
-## GitHub Actions Setup
-
-1. Create a repository secret named `WAKATIME_API_KEY`
-2. The workflow runs daily at UTC 01:18 (Beijing time 09:18)
-3. You can also trigger it manually from the Actions tab
 
 ## Docs
 
