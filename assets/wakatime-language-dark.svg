@@ -1,60 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="298" viewBox="0 0 495 298" role="img" aria-labelledby="title desc">
-  <title id="title">Language coding time</title>
-  <desc id="desc">2026-W22 · 21 hrs 57 mins</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="228" viewBox="0 0 495 228" role="img" aria-labelledby="title desc">
+  <title id="title">Weekly Coding Stats</title>
+  <desc id="desc">2026-W22 language coding time</desc>
   <defs>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
       <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#000000" flood-opacity="0.22" />
     </filter>
   </defs>
   <style>
-    .card { fill: #1a1b27; stroke: #30363d; filter: url(#shadow); }
-    .title { font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #70a5fd; }
-    .subtle { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b949e; }
+    .card { fill: #141821; stroke: #30363d; filter: url(#shadow); }
+    .title { font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #f0f3f6; }
     .label { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #c9d1d9; }
-    .value { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b949e; font-variant-numeric: tabular-nums; }
-    .metric { font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #c9d1d9; font-variant-numeric: tabular-nums; }
-    .metric-label { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b949e; text-transform: uppercase; letter-spacing: 0.04em; }
+    .time { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b949e; font-variant-numeric: tabular-nums; }
+    .percent { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b949e; font-variant-numeric: tabular-nums; }
+    .metric-row-label { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #c9d1d9; }
+    .metric-row-value { font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #c9d1d9; font-variant-numeric: tabular-nums; }
+    .badge-symbol { font: 700 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #ffffff; text-anchor: middle; dominant-baseline: central; }
+    .ring-value { font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #c9d1d9; text-anchor: middle; font-variant-numeric: tabular-nums; }
+    .ring-label { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #8b949e; text-anchor: middle; text-transform: uppercase; letter-spacing: 0.04em; }
     .bar-bg { fill: #2f3549; }
-    .blue { fill: #70a5fd; }
-    .green { fill: #3fb950; }
-    .orange { fill: #f0883e; }
+    .blue { fill: #58a6ff; }
+    .green { fill: #56d364; }
+    .orange { fill: #f2cc60; }
     .purple { fill: #a371f7; }
     .pink { fill: #db61a2; }
   </style>
-  <rect class="card" x="0.5" y="0.5" width="494" height="297" rx="6" />
-  <text class="title" x="25" y="34">Language coding time</text>
-  <text class="subtle" x="25" y="55">2026-W22 · 21 hrs 57 mins</text>
+  <rect class="card" x="0.5" y="0.5" width="494" height="227" rx="6" />
+  <text class="title" x="25" y="34">Weekly Coding Stats</text>
   
-  <g transform="translate(0 92)">
+  <g transform="translate(0 76)">
     <text class="label" x="25" y="0">TypeScript</text>
-    <rect class="bar-bg" x="165" y="-10" width="210" height="8" rx="4" />
-    <rect class="blue" x="165" y="-10" width="63" height="8" rx="4" />
-    <text class="value" x="455" y="0" text-anchor="end">7 hrs 30 mins 29.8%</text>
+    <text class="time" x="138" y="0">7 hrs 30 mins</text>
+    <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
+    <rect class="blue" x="236" y="-10" width="45" height="8" rx="4" />
+    <text class="percent" x="460" y="0" text-anchor="end">29.8%</text>
   </g>
-  <g transform="translate(0 122)">
+  <g transform="translate(0 106)">
     <text class="label" x="25" y="0">Markdown</text>
-    <rect class="bar-bg" x="165" y="-10" width="210" height="8" rx="4" />
-    <rect class="green" x="165" y="-10" width="45" height="8" rx="4" />
-    <text class="value" x="455" y="0" text-anchor="end">5 hrs 22 mins 21.4%</text>
+    <text class="time" x="138" y="0">5 hrs 22 mins</text>
+    <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
+    <rect class="green" x="236" y="-10" width="32" height="8" rx="4" />
+    <text class="percent" x="460" y="0" text-anchor="end">21.4%</text>
   </g>
-  <g transform="translate(0 152)">
+  <g transform="translate(0 136)">
     <text class="label" x="25" y="0">Other</text>
-    <rect class="bar-bg" x="165" y="-10" width="210" height="8" rx="4" />
-    <rect class="orange" x="165" y="-10" width="27" height="8" rx="4" />
-    <text class="value" x="455" y="0" text-anchor="end">3 hrs 13 mins 12.8%</text>
+    <text class="time" x="138" y="0">3 hrs 13 mins</text>
+    <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
+    <rect class="orange" x="236" y="-10" width="19" height="8" rx="4" />
+    <text class="percent" x="460" y="0" text-anchor="end">12.8%</text>
   </g>
-  <g transform="translate(0 182)">
+  <g transform="translate(0 166)">
     <text class="label" x="25" y="0">Swift</text>
-    <rect class="bar-bg" x="165" y="-10" width="210" height="8" rx="4" />
-    <rect class="purple" x="165" y="-10" width="22" height="8" rx="4" />
-    <text class="value" x="455" y="0" text-anchor="end">2 hrs 39 mins 10.6%</text>
+    <text class="time" x="138" y="0">2 hrs 39 mins</text>
+    <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
+    <rect class="purple" x="236" y="-10" width="16" height="8" rx="4" />
+    <text class="percent" x="460" y="0" text-anchor="end">10.6%</text>
   </g>
-  <g transform="translate(0 212)">
+  <g transform="translate(0 196)">
     <text class="label" x="25" y="0">Less</text>
-    <rect class="bar-bg" x="165" y="-10" width="210" height="8" rx="4" />
-    <rect class="pink" x="165" y="-10" width="15" height="8" rx="4" />
-    <text class="value" x="455" y="0" text-anchor="end">1 hr 48 mins 7.2%</text>
+    <text class="time" x="138" y="0">1 hr 48 mins</text>
+    <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
+    <rect class="pink" x="236" y="-10" width="11" height="8" rx="4" />
+    <text class="percent" x="460" y="0" text-anchor="end">7.2%</text>
   </g>
-  <line x1="25" y1="260" x2="470" y2="260" stroke="#30363d" />
-  <text class="subtle" x="25" y="281">Daily average: 3 hrs 39 mins</text>
 </svg>

@@ -26,3 +26,24 @@ export function formatCompactNumber(value: number): string {
   }
   return String(value);
 }
+
+function trimFixedDecimals(value: number): string {
+  return value
+    .toFixed(2)
+    .replace(/\.00$/, "")
+    .replace(/(\.\d)0$/, "$1");
+}
+
+export function formatTokenCount(value: number): string {
+  const tokens = Math.round(Math.max(0, value));
+  if (tokens >= 1_000_000_000) {
+    return `${trimFixedDecimals(tokens / 1_000_000_000)}B`;
+  }
+  if (tokens >= 1_000_000) {
+    return `${trimFixedDecimals(tokens / 1_000_000)}M`;
+  }
+  if (tokens >= 1_000) {
+    return `${trimFixedDecimals(tokens / 1_000)}K`;
+  }
+  return String(tokens);
+}

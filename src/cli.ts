@@ -106,10 +106,8 @@ if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {
       console.log(result.archivePath);
       console.log(result.cards.languagePath);
       console.log(result.cards.aiPath);
-      console.log(result.cards.agentsPath);
       console.log(result.cards.languageDarkPath);
       console.log(result.cards.aiDarkPath);
-      console.log(result.cards.agentsDarkPath);
       console.log(result.previewPath);
     })
     .catch((error: unknown) => {
