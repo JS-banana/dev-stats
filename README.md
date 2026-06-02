@@ -6,11 +6,14 @@
 
 ## Preview
 
-| Light | Dark |
-|:---:|:---:|
-| ![Language](./assets/wakatime-language.svg) | ![Language dark](./assets/wakatime-language-dark.svg) |
-| ![AI coding](./assets/wakatime-ai.svg) | ![AI coding dark](./assets/wakatime-ai-dark.svg) |
-| ![AI agents](./assets/wakatime-agents.svg) | ![AI agents dark](./assets/wakatime-agents-dark.svg) |
+![Dev Stats card preview](./public/dev-stats-card-reference.png)
+
+Generated SVG cards:
+
+|                         Light                          |                               Dark                               |
+| :----------------------------------------------------: | :--------------------------------------------------------------: |
+| ![Weekly coding stats](./assets/wakatime-language.svg) | ![Weekly coding stats dark](./assets/wakatime-language-dark.svg) |
+|      ![Weekly AI stats](./assets/wakatime-ai.svg)      |      ![Weekly AI stats dark](./assets/wakatime-ai-dark.svg)      |
 
 ## What is Dev Stats?
 
@@ -19,15 +22,14 @@ Dev Stats is a lightweight tool that archives your weekly WakaTime coding statis
 It tracks:
 
 - **Language coding time** — time spent in each programming language
-- **AI coding metrics** — tokens, prompts, sessions, and AI vs human coding share
-- **AI agent activity** — line changes and costs per agent (Claude, Codex, etc.)
+- **AI coding metrics** — total tokens, AI cost, prompts, line changes, and AI share
 
 All data is archived weekly as JSON, so you never lose historical stats even after your free WakaTime account's retention period expires.
 
 ## Features
 
 - 📊 Weekly data archival as structured JSON (`data/YYYY/MM/YYYY-WW.json`)
-- 🎨 Six SVG card variants (3 card types × 2 themes: light & dark)
+- 🎨 Four SVG card variants (2 card types × 2 themes: light & dark)
 - 🔄 Automated daily updates via GitHub Actions
 - 📱 Local HTML preview for quick inspection
 - 🧪 Full test coverage
@@ -78,17 +80,15 @@ npm run preview       # Generate preview with test fixtures (no API key needed)
 Embed cards in any repository's README:
 
 ```md
-![Language coding time](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-language.svg)
-![AI coding](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai.svg)
-![AI agents](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-agents.svg)
+![Weekly coding stats](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-language.svg)
+![Weekly AI stats](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai.svg)
 ```
 
 Dark theme:
 
 ```md
-![Language coding time](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-language-dark.svg)
-![AI coding](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai-dark.svg)
-![AI agents](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-agents-dark.svg)
+![Weekly coding stats](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-language-dark.svg)
+![Weekly AI stats](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai-dark.svg)
 ```
 
 ## Docs

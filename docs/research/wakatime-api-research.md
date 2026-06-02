@@ -159,7 +159,7 @@ Build a CLI-first repository tool:
 - Fetch `summaries` for the same date window for retention.
 - Normalize the useful totals, language breakdown, AI tokens, AI lines, prompts, sessions, and agent breakdown.
 - Write JSON files into `data/YYYY/MM/`.
-- Write GitHub README-friendly SVG cards into `assets/wakatime-language.svg`, `assets/wakatime-ai.svg`, and `assets/wakatime-agents.svg`.
+- Write GitHub README-friendly SVG cards into `assets/wakatime-language.svg` and `assets/wakatime-ai.svg`, with dark theme variants.
 - Provide a local HTML preview for browser verification.
 - Provide a GitHub Action that runs on a schedule and commits changed generated files.
 

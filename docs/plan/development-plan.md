@@ -30,10 +30,8 @@ WakaTime API
   -> src/render/svg-card.ts
   -> assets/wakatime-language.svg
   -> assets/wakatime-ai.svg
-  -> assets/wakatime-agents.svg
-  -> assets/wakatime-language-tokyonight.svg
-  -> assets/wakatime-ai-tokyonight.svg
-  -> assets/wakatime-agents-tokyonight.svg
+  -> assets/wakatime-language-dark.svg
+  -> assets/wakatime-ai-dark.svg
   -> public/preview.html
 ```
 

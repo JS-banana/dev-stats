@@ -33,8 +33,8 @@ WakaTime API
 - Vitest、ESLint、Prettier、TypeScript build。
 - WakaTime `stats/last_7_days`、`summaries`、`user_agents` 客户端。
 - 周数据归一化与紧凑 JSON 归档。
-- 三类 SVG 卡片：语言时长、AI coding、AI agents。
-- 两套主题：默认浅色和 `tokyonight`。
+- 两类 SVG 卡片：Weekly Coding Stats 和 Weekly AI Stats。
+- 两套主题：默认浅色和深色。
 - 本地 HTML 预览。
 - GitHub Actions 定时更新与自动提交。
 
@@ -108,14 +108,13 @@ JSON 顶层字段：
 
 当前预览和 SVG 使用的数据主要是：
 
-- 周总时长、日均时长。
 - 语言名称、语言时长、语言占比。
 - AI 新增/删除行数。
 - human 新增/删除行数。
 - AI/human 行变更占比。
 - AI input/output tokens。
-- prompt events、sessions。
-- AI agent 名称、lines、cost。
+- AI cost。
+- AI prompt events。
 
 ## SVG 产物约定
 
@@ -124,10 +123,8 @@ JSON 顶层字段：
 ```text
 assets/wakatime-language.svg
 assets/wakatime-ai.svg
-assets/wakatime-agents.svg
-assets/wakatime-language-tokyonight.svg
-assets/wakatime-ai-tokyonight.svg
-assets/wakatime-agents-tokyonight.svg
+assets/wakatime-language-dark.svg
+assets/wakatime-ai-dark.svg
 public/preview.html
 ```
 
