@@ -24,10 +24,10 @@ describe("runCli", () => {
       '"generatedAt": "2026-05-30T00:00:00.000Z"',
     );
     await expect(readFile(join(root, "assets/wakatime-language.svg"), "utf8")).resolves.toContain(
-      "Language coding time",
+      "Weekly Coding Stats",
     );
     await expect(readFile(join(root, "assets/wakatime-ai.svg"), "utf8")).resolves.toContain(
-      "AI coding",
+      "Weekly AI Stats",
     );
   });
 

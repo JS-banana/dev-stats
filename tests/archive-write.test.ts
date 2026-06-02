@@ -8,7 +8,7 @@ import { writeArchiveArtifacts } from "../src/archive/write.js";
 import type { WeeklyArchive } from "../src/wakatime/types.js";
 
 describe("writeArchiveArtifacts", () => {
-  it("writes year/month week JSON, multiple SVG cards, and HTML preview", async () => {
+  it("writes year/month week JSON, two SVG cards, and HTML preview", async () => {
     const root = await mkdtemp(join(tmpdir(), "dev-stats-"));
     const archive = {
       schemaVersion: 1,
@@ -45,10 +45,7 @@ describe("writeArchiveArtifacts", () => {
     expect(result.archivePath).toBe(join(root, "data/2026/05/2026-W22.json"));
     expect(result.cards.languagePath).toBe(join(root, "assets/wakatime-language.svg"));
     expect(result.cards.aiPath).toBe(join(root, "assets/wakatime-ai.svg"));
-    expect(result.cards.agentsPath).toBe(join(root, "assets/wakatime-agents.svg"));
-    expect(result.cards.languageDarkPath).toBe(
-      join(root, "assets/wakatime-language-dark.svg"),
-    );
+    expect(result.cards.languageDarkPath).toBe(join(root, "assets/wakatime-language-dark.svg"));
     expect(result.cards.aiDarkPath).toBe(join(root, "assets/wakatime-ai-dark.svg"));
 
     const archiveJson = await readFile(result.archivePath, "utf8");
@@ -57,15 +54,18 @@ describe("writeArchiveArtifacts", () => {
     expect(archiveJson).not.toContain('"diagnostics"');
 
     await expect(readFile(result.cards.languagePath, "utf8")).resolves.toContain(
-      "Language coding time",
+      "Weekly Coding Stats",
     );
-    await expect(readFile(result.cards.aiPath, "utf8")).resolves.toContain("AI coding");
-    await expect(readFile(result.cards.agentsPath, "utf8")).resolves.toContain("AI agents");
-    await expect(readFile(result.cards.languageDarkPath, "utf8")).resolves.toContain("#1a1b27");
+    await expect(readFile(result.cards.aiPath, "utf8")).resolves.toContain("Weekly AI Stats");
+    await expect(readFile(result.cards.aiPath, "utf8")).resolves.toContain("AI Cost");
+    await expect(readFile(result.cards.languageDarkPath, "utf8")).resolves.toContain("#141821");
     await expect(readFile(result.previewPath, "utf8")).resolves.toContain("wakatime-language.svg");
     await expect(readFile(result.previewPath, "utf8")).resolves.toContain("wakatime-ai.svg");
     await expect(readFile(result.previewPath, "utf8")).resolves.toContain(
       "wakatime-language-dark.svg",
+    );
+    await expect(readFile(result.previewPath, "utf8")).resolves.not.toContain(
+      "wakatime-agents.svg",
     );
   });
 });

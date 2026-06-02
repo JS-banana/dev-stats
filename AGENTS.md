@@ -40,7 +40,8 @@
 - JSON 只保留展示和后续统计需要的归一化字段。
 - 默认不要保存完整 WakaTime 原始响应。
 - 默认不要保存 `diagnostics`。
-- SVG 产物包括语言卡、AI coding 卡、AI agents 卡，以及 `tokyonight` 主题变体。
+- SVG 产物包括 `Weekly Coding Stats` 和 `Weekly AI Stats` 两类卡片，每类都有浅色和深色变体。
+- README 可使用 `public/dev-stats-card-reference.png` 作为设计效果图；真实可嵌入产物仍以 `assets/*.svg` 为准。
 - 预览页写入 `public/preview.html`。
 
 如果要改变数据 shape、归档路径、卡片文件名或公开产物内容，必须同步更新测试、README 和上下文文档。

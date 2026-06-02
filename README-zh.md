@@ -6,11 +6,14 @@
 
 ## 预览
 
+![Dev Stats 卡片预览](./public/dev-stats-card-reference.png)
+
+生成的 SVG 卡片：
+
 | 浅色 | 深色 |
-|:---:|:---:|
-| ![语言时间](./assets/wakatime-language.svg) | ![语言时间-深色](./assets/wakatime-language-dark.svg) |
-| ![AI 编程](./assets/wakatime-ai.svg) | ![AI 编程-深色](./assets/wakatime-ai-dark.svg) |
-| ![AI Agents](./assets/wakatime-agents.svg) | ![AI Agents-深色](./assets/wakatime-agents-dark.svg) |
+| :---: | :---: |
+| ![每周编程统计](./assets/wakatime-language.svg) | ![每周编程统计-深色](./assets/wakatime-language-dark.svg) |
+| ![每周 AI 统计](./assets/wakatime-ai.svg) | ![每周 AI 统计-深色](./assets/wakatime-ai-dark.svg) |
 
 ## 什么是 Dev Stats？
 
@@ -19,15 +22,14 @@ Dev Stats 是一个轻量级工具，用于将你的 WakaTime 每周编程统计
 它追踪以下指标：
 
 - **语言编程时间** — 每种编程语言的使用时长
-- **AI 编程指标** — token 用量、prompt 次数、会话数，以及 AI 与人工编程占比
-- **AI Agent 活动** — 每个 Agent（Claude、Codex 等）的代码变更行数和费用
+- **AI 编程指标** — token 总量、AI 成本、AI prompts、代码变更行数，以及 AI 占比
 
 所有数据按周归档为 JSON 文件，即使免费 WakaTime 账户的历史数据过期，你也不会丢失任何统计记录。
 
 ## 功能特性
 
 - 📊 每周数据归档为结构化 JSON（`data/YYYY/MM/YYYY-WW.json`）
-- 🎨 六种 SVG 卡片变体（3 种卡片类型 × 2 种主题：浅色 & 深色）
+- 🎨 四种 SVG 卡片变体（2 种卡片类型 × 2 种主题：浅色 & 深色）
 - 🔄 通过 GitHub Actions 自动每日更新
 - 📱 本地 HTML 预览，方便快速查看
 - 🧪 完整的测试覆盖
@@ -78,17 +80,15 @@ npm run preview       # 使用测试数据生成预览（无需 API Key）
 在任意仓库的 README 中嵌入卡片：
 
 ```md
-![语言编程时间](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-language.svg)
-![AI 编程](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai.svg)
-![AI Agents](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-agents.svg)
+![每周编程统计](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-language.svg)
+![每周 AI 统计](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai.svg)
 ```
 
 深色主题：
 
 ```md
-![语言编程时间](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-language-dark.svg)
-![AI 编程](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai-dark.svg)
-![AI Agents](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-agents-dark.svg)
+![每周编程统计](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-language-dark.svg)
+![每周 AI 统计](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai-dark.svg)
 ```
 
 ## 项目文档

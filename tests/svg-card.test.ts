@@ -1,10 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import {
-  renderAiCodingCard,
-  renderAgentsCard,
-  renderLanguageCard,
-} from "../src/render/svg-card.js";
+import { renderAiStatsCard, renderLanguageCard } from "../src/render/svg-card.js";
 import type { WeeklyArchive } from "../src/wakatime/types.js";
 
 const archive: WeeklyArchive = {
@@ -41,27 +37,33 @@ const archive: WeeklyArchive = {
 };
 
 describe("renderLanguageCard", () => {
-  it("renders a focused GitHub-readme-stats style language card", () => {
+  it("renders weekly coding stats with aligned language time and share columns", () => {
     const svg = renderLanguageCard(archive);
 
     expect(svg).toContain("<svg");
     expect(svg).toContain("2026-W22");
-    expect(svg).toContain("Language coding time");
-    expect(svg).toContain("7 hrs 49 mins");
+    expect(svg).toContain("Weekly Coding Stats");
+    expect(svg).not.toContain('text-anchor="end">2026-W22</text>');
+    expect(svg).not.toContain("Language coding time");
+    expect(svg).not.toContain("Daily average");
     expect(svg).toContain("TypeScript");
+    expect(svg).toContain("3 hrs 58 mins");
+    expect(svg).toContain("50.8%");
     expect(svg).toContain("Rust &amp; Tools");
+    expect(svg).toContain('class="time" x="138"');
+    expect(svg).toContain('class="percent" x="460"');
     expect(svg).not.toContain("AI tokens");
   });
 
   it("supports a dark github-readme-stats style theme", () => {
     const svg = renderLanguageCard(archive, { theme: "dark" });
 
-    expect(svg).toContain("Language coding time");
-    expect(svg).toContain("#1a1b27");
-    expect(svg).toContain("#70a5fd");
+    expect(svg).toContain("Weekly Coding Stats");
+    expect(svg).toContain("#141821");
+    expect(svg).toContain("#58a6ff");
   });
 
-  it("keeps the language card footer below the language rows", () => {
+  it("grows the language card to fit the displayed language rows", () => {
     const svg = renderLanguageCard({
       ...archive,
       languages: [
@@ -72,34 +74,36 @@ describe("renderLanguageCard", () => {
       ],
     });
 
-    expect(svg).toContain('height="298"');
-    expect(svg).toContain("Daily average");
+    expect(svg).toContain('height="228"');
+    expect(svg).toContain("Markdown");
+    expect(svg).toContain("Swift");
+    expect(svg).toContain("Less");
   });
 });
 
-describe("renderAiCodingCard", () => {
-  it("renders tokens and human versus AI coding share", () => {
-    const svg = renderAiCodingCard(archive);
+describe("renderAiStatsCard", () => {
+  it("renders weekly AI stats as totals and a single AI share", () => {
+    const svg = renderAiStatsCard(archive);
 
-    expect(svg).toContain("AI coding");
-    expect(svg).toContain("18.2k input");
-    expect(svg).toContain("51.2k output");
-    expect(svg).toContain("AI share");
+    expect(svg).toContain("Weekly AI Stats");
+    expect(svg).toContain('height="228"');
+    expect(svg).not.toContain('text-anchor="end">2026-W22</text>');
+    expect(svg).toContain("69.44K");
+    expect(svg).toContain("$1.24");
+    expect(svg).toContain("96");
+    expect(svg).toContain("1,764");
+    expect(svg).toContain("Total Tokens");
+    expect(svg).toContain("AI Cost");
+    expect(svg).toContain("AI Prompts");
+    expect(svg).toContain("Line Changes");
+    expect(svg).toContain("AI Share");
     expect(svg).toContain("20.6%");
-    expect(svg).toContain("Human share");
-    expect(svg).toContain("79.4%");
-    expect(svg).toContain("96 prompts");
+    expect(svg).toContain("stroke-dasharray");
+    expect(svg).not.toContain("Messages");
+    expect(svg).not.toContain(">Lines<");
+    expect(svg).not.toContain("Human share");
+    expect(svg).not.toContain("79.4%");
+    expect(svg).not.toContain("AI agents");
     expect(svg).not.toContain("TypeScript");
-  });
-});
-
-describe("renderAgentsCard", () => {
-  it("renders AI agent breakdown as a separate optional card", () => {
-    const svg = renderAgentsCard(archive);
-
-    expect(svg).toContain("AI agents");
-    expect(svg).toContain("Claude &lt;Code&gt;");
-    expect(svg).toContain("260 lines");
-    expect(svg).not.toContain("Claude <Code>");
   });
 });

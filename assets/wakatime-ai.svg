@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="270" viewBox="0 0 495 270" role="img" aria-labelledby="title desc">
-  <title id="title">AI coding</title>
-  <desc id="desc">2026-W22 · tokens, prompts, and coding share</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="228" viewBox="0 0 495 228" role="img" aria-labelledby="title desc">
+  <title id="title">Weekly AI Stats</title>
+  <desc id="desc">2026-W22 AI totals and coding share</desc>
   <defs>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
       <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#1b1f24" flood-opacity="0.12" />
@@ -8,52 +8,53 @@
   </defs>
   <style>
     .card { fill: #fffefe; stroke: #d8dee4; filter: url(#shadow); }
-    .title { font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #0969da; }
-    .subtle { font: 400 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #57606a; }
+    .title { font: 600 18px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #24292f; }
     .label { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #24292f; }
-    .value { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #57606a; font-variant-numeric: tabular-nums; }
-    .metric { font: 700 20px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #24292f; font-variant-numeric: tabular-nums; }
-    .metric-label { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #57606a; text-transform: uppercase; letter-spacing: 0.04em; }
+    .time { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #57606a; font-variant-numeric: tabular-nums; }
+    .percent { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #57606a; font-variant-numeric: tabular-nums; }
+    .metric-row-label { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #24292f; }
+    .metric-row-value { font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #24292f; font-variant-numeric: tabular-nums; }
+    .badge-symbol { font: 700 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #ffffff; text-anchor: middle; dominant-baseline: central; }
+    .ring-value { font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #24292f; text-anchor: middle; font-variant-numeric: tabular-nums; }
+    .ring-label { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: #57606a; text-anchor: middle; text-transform: uppercase; letter-spacing: 0.04em; }
     .bar-bg { fill: #eaeef2; }
-    .blue { fill: #0969da; }
-    .green { fill: #1a7f37; }
-    .orange { fill: #bc4c00; }
+    .blue { fill: #2f81f7; }
+    .green { fill: #2da44e; }
+    .orange { fill: #d29922; }
     .purple { fill: #8250df; }
     .pink { fill: #bf3989; }
   </style>
-  <rect class="card" x="0.5" y="0.5" width="494" height="269" rx="6" />
-  <text class="title" x="25" y="34">AI coding</text>
-  <text class="subtle" x="25" y="55">2026-W22 · tokens, prompts, and coding share</text>
+  <rect class="card" x="0.5" y="0.5" width="494" height="227" rx="6" />
+  <text class="title" x="25" y="34">Weekly AI Stats</text>
   
-  <g transform="translate(25 92)">
-    <text class="metric-label" x="0" y="0">AI tokens</text>
-    <text class="metric" x="0" y="27">129m input</text>
-    <text class="subtle" x="0" y="47">721k output</text>
+  <g transform="translate(0 77)">
+    <circle class="blue" cx="39" cy="-5" r="10" />
+    <text class="badge-symbol" x="39" y="-5">T</text>
+    <text class="metric-row-label" x="70" y="0">Total Tokens</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">129.77M</text>
   </g>
-  <g transform="translate(265 92)">
-    <text class="metric-label" x="0" y="0">Activity</text>
-    <text class="metric" x="0" y="27">252 prompts</text>
-    <text class="subtle" x="0" y="47">70 sessions · $243.97</text>
+  <g transform="translate(0 113)">
+    <circle class="green" cx="39" cy="-5" r="10" />
+    <text class="badge-symbol" x="39" y="-5">$</text>
+    <text class="metric-row-label" x="70" y="0">AI Cost</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">$243.97</text>
   </g>
-  
-  <g transform="translate(0 176)">
-    <text class="label" x="25" y="0">AI share</text>
-    <rect class="bar-bg" x="155" y="-10" width="245" height="8" rx="4" />
-    <rect class="blue" x="155" y="-10" width="242" height="8" rx="4" />
-    <text class="value" x="455" y="0" text-anchor="end">98.9%</text>
+  <g transform="translate(0 149)">
+    <circle class="orange" cx="39" cy="-5" r="10" />
+    <text class="badge-symbol" x="39" y="-5">P</text>
+    <text class="metric-row-label" x="70" y="0">AI Prompts</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">252</text>
   </g>
-  
-  <g transform="translate(0 209)">
-    <text class="label" x="25" y="0">Human share</text>
-    <rect class="bar-bg" x="155" y="-10" width="245" height="8" rx="4" />
-    <rect class="green" x="155" y="-10" width="3" height="8" rx="4" />
-    <text class="value" x="455" y="0" text-anchor="end">1.1%</text>
+  <g transform="translate(0 185)">
+    <circle class="purple" cx="39" cy="-5" r="10" />
+    <text class="badge-symbol" x="39" y="-5">#</text>
+    <text class="metric-row-label" x="70" y="0">Line Changes</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">10,321</text>
   </g>
-  
-  <g transform="translate(0 242)">
-    <text class="label" x="25" y="0">Output token share</text>
-    <rect class="bar-bg" x="155" y="-10" width="245" height="8" rx="4" />
-    <rect class="purple" x="155" y="-10" width="2" height="8" rx="4" />
-    <text class="value" x="455" y="0" text-anchor="end">0.6%</text>
+  <g>
+    <circle cx="382" cy="122" r="48" fill="none" stroke="#eaeef2" stroke-width="12" />
+    <circle cx="382" cy="122" r="48" fill="none" stroke="#2f81f7" stroke-linecap="round" stroke-width="12" stroke-dasharray="298.27 301.59" transform="rotate(-90 382 122)" />
+    <text class="ring-value" x="382" y="120">98.9%</text>
+    <text class="ring-label" x="382" y="143">AI Share</text>
   </g>
 </svg>
