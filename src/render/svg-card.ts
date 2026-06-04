@@ -12,6 +12,7 @@ const AI_VALUE_X = 252;
 const AI_RING_CX = 382;
 const AI_RING_CY = 122;
 const AI_RING_RADIUS = 48;
+const ICON_SIZE = 13;
 
 export type CardThemeName = "light" | "dark";
 
@@ -102,7 +103,7 @@ function cardShell(
     .percent { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${theme.muted}; font-variant-numeric: tabular-nums; }
     .metric-row-label { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${theme.text}; }
     .metric-row-value { font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${theme.text}; font-variant-numeric: tabular-nums; }
-    .badge-symbol { font: 700 10px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${theme.badgeText}; text-anchor: middle; dominant-baseline: central; }
+    .badge-icon { fill: none; stroke: ${theme.badgeText}; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
     .ring-value { font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${theme.text}; text-anchor: middle; font-variant-numeric: tabular-nums; }
     .ring-label { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${theme.muted}; text-anchor: middle; text-transform: uppercase; letter-spacing: 0.04em; }
     .bar-bg { fill: ${theme.barBg}; }
@@ -141,11 +142,54 @@ function languageRow(
   </g>`;
 }
 
-function metricRow(label: string, value: string, y: number, index: number, symbol: string): string {
+type MetricIcon = "database" | "dollar-sign" | "message-circle" | "code";
+
+function metricIcon(icon: MetricIcon, x: number, y: number): string {
+  const left = x - ICON_SIZE / 2;
+  const top = y - ICON_SIZE / 2;
+  const attrs = `class="badge-icon" data-icon="${icon}" x="${left}" y="${top}" width="${ICON_SIZE}" height="${ICON_SIZE}" viewBox="0 0 24 24" aria-hidden="true"`;
+
+  switch (icon) {
+    case "database":
+      return `<svg ${attrs}>
+      <ellipse cx="12" cy="5" rx="8" ry="3" />
+      <path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5" />
+      <path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6" />
+    </svg>`;
+    case "dollar-sign":
+      return `<svg ${attrs}>
+      <path d="M12 2v20" />
+      <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7H14a3.5 3.5 0 0 1 0 7H6" />
+    </svg>`;
+    case "message-circle":
+      return `<svg ${attrs}>
+      <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+      <path d="M8 12h.01" />
+      <path d="M12 12h.01" />
+      <path d="M16 12h.01" />
+    </svg>`;
+    case "code":
+      return `<svg ${attrs}>
+      <path d="m16 18 6-6-6-6" />
+      <path d="m8 6-6 6 6 6" />
+    </svg>`;
+  }
+}
+
+function metricRow(
+  label: string,
+  value: string,
+  y: number,
+  index: number,
+  icon: MetricIcon,
+): string {
+  const iconX = LEFT + 14;
+  const iconY = -5;
+
   return `
   <g transform="translate(0 ${y})">
-    <circle class="${colorClass(index)}" cx="${LEFT + 14}" cy="-5" r="10" />
-    <text class="badge-symbol" x="${LEFT + 14}" y="-5">${escapeXml(symbol)}</text>
+    <circle class="${colorClass(index)}" cx="${iconX}" cy="${iconY}" r="11" />
+    ${metricIcon(icon, iconX, iconY)}
     <text class="metric-row-label" x="${AI_LABEL_X}" y="0">${escapeXml(label)}</text>
     <text class="metric-row-value" x="${AI_VALUE_X}" y="0" text-anchor="end">${escapeXml(value)}</text>
   </g>`;
@@ -196,10 +240,10 @@ export function renderAiStatsCard(archive: WeeklyArchive, options?: CardRenderOp
   const totalTokens = archive.ai.inputTokens + archive.ai.outputTokens;
   const totalLines = archive.ai.lineChangesTotal + archive.ai.humanLineChangesTotal;
   const rows = [
-    metricRow("Total Tokens", formatTokenCount(totalTokens), 77, 0, "T"),
-    metricRow("AI Cost", formatCost(archive.ai.agentTotalCost), 113, 1, "$"),
-    metricRow("AI Prompts", formatInteger(archive.ai.promptEventsTotal), 149, 2, "P"),
-    metricRow("Line Changes", formatInteger(totalLines), 185, 3, "#"),
+    metricRow("Total Tokens", formatTokenCount(totalTokens), 77, 0, "database"),
+    metricRow("AI Cost", formatCost(archive.ai.agentTotalCost), 113, 1, "dollar-sign"),
+    metricRow("AI Prompts", formatInteger(archive.ai.promptEventsTotal), 149, 2, "message-circle"),
+    metricRow("Line Changes", formatInteger(totalLines), 185, 3, "code"),
     donutChart(archive.ai.aiSharePercent, theme),
   ].join("");
 
