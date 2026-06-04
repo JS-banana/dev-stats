@@ -1,7 +1,7 @@
 const CARD_FILES = [
   "wakatime-language.svg",
-  "wakatime-ai.svg",
   "wakatime-language-dark.svg",
+  "wakatime-ai.svg",
   "wakatime-ai-dark.svg",
 ];
 
@@ -30,11 +30,11 @@ export function renderHtmlPreview(cardFiles = CARD_FILES): string {
         font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       }
       main {
-        width: min(94vw, 1080px);
+        width: min(94vw, 1030px);
         margin: 0 auto;
         padding: 40px 0;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 18px;
         align-items: start;
       }
@@ -42,6 +42,11 @@ export function renderHtmlPreview(cardFiles = CARD_FILES): string {
         display: block;
         width: 100%;
         height: auto;
+      }
+      @media (max-width: 760px) {
+        main {
+          grid-template-columns: 1fr;
+        }
       }
     </style>
   </head>
