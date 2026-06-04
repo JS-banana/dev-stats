@@ -6,14 +6,16 @@
 
 ## Preview
 
-![Dev Stats card preview](./public/dev-stats-card-reference.png)
-
-Generated SVG cards:
+<!--Generated SVG cards:-->
 
 |                         Light                          |                               Dark                               |
 | :----------------------------------------------------: | :--------------------------------------------------------------: |
 | ![Weekly coding stats](./assets/wakatime-language.svg) | ![Weekly coding stats dark](./assets/wakatime-language-dark.svg) |
 |      ![Weekly AI stats](./assets/wakatime-ai.svg)      |      ![Weekly AI stats dark](./assets/wakatime-ai-dark.svg)      |
+
+<!--Combined preview:
+
+![Dev Stats card preview](./public/dev-stats-card-reference.png)-->
 
 ## What is Dev Stats?
 
