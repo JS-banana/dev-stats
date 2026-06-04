@@ -1,112 +1,118 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-03T06:17:21.809Z",
+  "generatedAt": "2026-06-04T06:08:14.612Z",
   "week": {
     "id": "2026-W23",
     "start": "2026-06-01",
     "end": "2026-06-07"
   },
   "totals": {
-    "totalSeconds": 93106.982372,
-    "humanReadable": "25 hrs 51 mins",
-    "dailyAverageSeconds": 18621,
-    "humanReadableDailyAverage": "5 hrs 10 mins"
+    "totalSeconds": 85703.211372,
+    "humanReadable": "23 hrs 48 mins",
+    "dailyAverageSeconds": 17141,
+    "humanReadableDailyAverage": "4 hrs 45 mins"
   },
   "languages": [
     {
       "name": "Markdown",
-      "totalSeconds": 33096.817,
-      "percent": 32.53,
-      "text": "9 hrs 11 mins"
+      "totalSeconds": 30865.07,
+      "percent": 32.9,
+      "text": "8 hrs 34 mins"
     },
     {
       "name": "TypeScript",
-      "totalSeconds": 25692.524,
-      "percent": 25.25,
-      "text": "7 hrs 8 mins"
+      "totalSeconds": 24765.864,
+      "percent": 26.4,
+      "text": "6 hrs 52 mins"
     },
     {
       "name": "Swift",
-      "totalSeconds": 19488.415293,
-      "percent": 19.15,
-      "text": "5 hrs 24 mins"
+      "totalSeconds": 18490.514293,
+      "percent": 19.71,
+      "text": "5 hrs 8 mins"
     },
     {
       "name": "Other",
-      "totalSeconds": 8642.671628,
-      "percent": 8.49,
-      "text": "2 hrs 24 mins"
+      "totalSeconds": 8111.525628,
+      "percent": 8.65,
+      "text": "2 hrs 15 mins"
     },
     {
       "name": "Python",
       "totalSeconds": 4065.944,
-      "percent": 4,
+      "percent": 4.33,
       "text": "1 hr 7 mins"
     },
     {
       "name": "JSON",
-      "totalSeconds": 2538.666,
-      "percent": 2.5,
-      "text": "42 mins"
-    },
-    {
-      "name": "JavaScript",
-      "totalSeconds": 1873.716,
-      "percent": 1.84,
-      "text": "31 mins"
+      "totalSeconds": 1983.394,
+      "percent": 2.11,
+      "text": "33 mins"
     },
     {
       "name": "Browserslist",
       "totalSeconds": 1705.362079,
-      "percent": 1.68,
+      "percent": 1.82,
       "text": "28 mins"
     },
     {
-      "name": "HTML",
-      "totalSeconds": 1466.358,
-      "percent": 1.44,
-      "text": "24 mins"
+      "name": "Git Config",
+      "totalSeconds": 1047.124,
+      "percent": 1.12,
+      "text": "17 mins"
     },
     {
       "name": "shell script",
-      "totalSeconds": 975.04,
-      "percent": 0.96,
+      "totalSeconds": 982.04,
+      "percent": 1.05,
       "text": "16 mins"
     },
     {
-      "name": "Git Config",
-      "totalSeconds": 923.121,
+      "name": "YAML",
+      "totalSeconds": 856,
       "percent": 0.91,
-      "text": "15 mins"
+      "text": "14 mins"
     },
     {
       "name": "TOML",
       "totalSeconds": 491,
-      "percent": 0.48,
+      "percent": 0.52,
       "text": "8 mins"
-    },
-    {
-      "name": "YAML",
-      "totalSeconds": 462,
-      "percent": 0.45,
-      "text": "7 mins"
     },
     {
       "name": "Java",
       "totalSeconds": 236.187,
-      "percent": 0.23,
+      "percent": 0.25,
       "text": "3 mins"
     },
     {
       "name": "Rust",
       "totalSeconds": 52,
+      "percent": 0.06,
+      "text": "0 secs"
+    },
+    {
+      "name": "jsonc",
+      "totalSeconds": 49,
       "percent": 0.05,
+      "text": "0 secs"
+    },
+    {
+      "name": "JavaScript",
+      "totalSeconds": 44,
+      "percent": 0.05,
+      "text": "0 secs"
+    },
+    {
+      "name": "Text",
+      "totalSeconds": 29.88,
+      "percent": 0.03,
       "text": "0 secs"
     },
     {
       "name": "Bash",
       "totalSeconds": 15,
-      "percent": 0.01,
+      "percent": 0.02,
       "text": "0 secs"
     },
     {
@@ -129,29 +135,34 @@
     }
   ],
   "ai": {
-    "additions": 15077,
-    "deletions": 744,
-    "humanAdditions": 91,
-    "humanDeletions": 74,
-    "lineChangesTotal": 15821,
-    "humanLineChangesTotal": 165,
-    "aiSharePercent": 99,
-    "humanSharePercent": 1,
-    "agentTotalCost": 538.3087949999999,
-    "inputTokens": 228655738,
-    "outputTokens": 1040499,
-    "promptEventsTotal": 276,
-    "sessions": 56,
+    "additions": 13853,
+    "deletions": 846,
+    "humanAdditions": 989,
+    "humanDeletions": 327,
+    "lineChangesTotal": 14699,
+    "humanLineChangesTotal": 1316,
+    "aiSharePercent": 91.8,
+    "humanSharePercent": 8.2,
+    "agentTotalCost": 565.681667,
+    "inputTokens": 237834118,
+    "outputTokens": 1121411,
+    "promptEventsTotal": 259,
+    "sessions": 54,
     "agents": [
       {
         "name": "Claude",
-        "lines": 10742,
-        "cost": 178.608497
+        "lines": 8763,
+        "cost": 125.942699
       },
       {
         "name": "Codex",
-        "lines": 5079,
-        "cost": 359.700298
+        "lines": 5936,
+        "cost": 439.65052
+      },
+      {
+        "name": "Pi",
+        "lines": 0,
+        "cost": 0.088448
       }
     ]
   },
@@ -261,11 +272,11 @@
       "totalSeconds": 15916.718,
       "humanReadable": "4 hrs 25 mins",
       "ai": {
-        "additions": 5098,
+        "additions": 5374,
         "deletions": 86,
         "humanAdditions": 20,
         "humanDeletions": 28,
-        "lineChangesTotal": 5184,
+        "lineChangesTotal": 5460,
         "humanLineChangesTotal": 48,
         "aiSharePercent": 99.1,
         "humanSharePercent": 0.9,
@@ -277,7 +288,7 @@
         "agents": [
           {
             "name": "Claude",
-            "lines": 5012,
+            "lines": 5288,
             "cost": 31.334576
           },
           {
@@ -352,72 +363,214 @@
     },
     {
       "date": "2026-06-03",
-      "totalSeconds": 487,
-      "humanReadable": "8 mins",
+      "totalSeconds": 11199.293,
+      "humanReadable": "3 hrs 6 mins",
       "ai": {
-        "additions": 0,
-        "deletions": 0,
-        "humanAdditions": 901,
-        "humanDeletions": 0,
-        "lineChangesTotal": 0,
-        "humanLineChangesTotal": 901,
-        "aiSharePercent": 0,
-        "humanSharePercent": 100,
-        "agentTotalCost": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
-        "promptEventsTotal": 0,
-        "sessions": 0,
-        "agents": []
+        "additions": 1498,
+        "deletions": 112,
+        "humanAdditions": 902,
+        "humanDeletions": 253,
+        "lineChangesTotal": 1610,
+        "humanLineChangesTotal": 1155,
+        "aiSharePercent": 58.2,
+        "humanSharePercent": 41.8,
+        "agentTotalCost": 140.471319,
+        "inputTokens": 47730573,
+        "outputTokens": 292905,
+        "promptEventsTotal": 23,
+        "sessions": 5,
+        "agents": [
+          {
+            "name": "Codex",
+            "lines": 1610,
+            "cost": 122.340589
+          },
+          {
+            "name": "Claude",
+            "lines": 0,
+            "cost": 18.042282
+          },
+          {
+            "name": "Pi",
+            "lines": 0,
+            "cost": 0.088448
+          }
+        ]
       },
       "languages": [
         {
+          "name": "Swift",
+          "totalSeconds": 7086.358,
+          "percent": 63.28,
+          "text": "1 hr 58 mins"
+        },
+        {
+          "name": "Markdown",
+          "totalSeconds": 2552.042,
+          "percent": 22.79,
+          "text": "42 mins"
+        },
+        {
+          "name": "TypeScript",
+          "totalSeconds": 907.931,
+          "percent": 8.11,
+          "text": "15 mins"
+        },
+        {
           "name": "YAML",
           "totalSeconds": 394,
-          "percent": 80.9,
+          "percent": 3.52,
           "text": "6 mins"
+        },
+        {
+          "name": "Git Config",
+          "totalSeconds": 124.003,
+          "percent": 1.11,
+          "text": "2 mins"
         },
         {
           "name": "jsonc",
           "totalSeconds": 49,
-          "percent": 10.06,
+          "percent": 0.44,
           "text": "49 secs"
         },
         {
           "name": "JavaScript",
           "totalSeconds": 44,
-          "percent": 9.03,
+          "percent": 0.39,
           "text": "44 secs"
         },
         {
-          "name": "TypeScript",
-          "totalSeconds": 0,
-          "percent": 0,
-          "text": "0 secs"
+          "name": "Text",
+          "totalSeconds": 29.88,
+          "percent": 0.27,
+          "text": "29 secs"
+        },
+        {
+          "name": "shell script",
+          "totalSeconds": 7,
+          "percent": 0.06,
+          "text": "7 secs"
+        },
+        {
+          "name": "JSON",
+          "totalSeconds": 5.079,
+          "percent": 0.05,
+          "text": "5 secs"
         }
       ]
     },
     {
       "date": "2026-06-04",
-      "totalSeconds": 0,
-      "humanReadable": "0 secs",
+      "totalSeconds": 8192.412,
+      "humanReadable": "2 hrs 16 mins",
       "ai": {
-        "additions": 0,
-        "deletions": 0,
-        "humanAdditions": 0,
-        "humanDeletions": 0,
-        "lineChangesTotal": 0,
-        "humanLineChangesTotal": 0,
-        "aiSharePercent": 0,
-        "humanSharePercent": 100,
-        "agentTotalCost": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
-        "promptEventsTotal": 0,
-        "sessions": 0,
-        "agents": []
+        "additions": 4947,
+        "deletions": 10,
+        "humanAdditions": 46,
+        "humanDeletions": 53,
+        "lineChangesTotal": 4957,
+        "humanLineChangesTotal": 99,
+        "aiSharePercent": 98,
+        "humanSharePercent": 2,
+        "agentTotalCost": 73.847276,
+        "inputTokens": 25330584,
+        "outputTokens": 107697,
+        "promptEventsTotal": 43,
+        "sessions": 5,
+        "agents": [
+          {
+            "name": "Claude",
+            "lines": 4387,
+            "cost": 48.049013
+          },
+          {
+            "name": "Codex",
+            "lines": 570,
+            "cost": 25.798263
+          }
+        ]
       },
-      "languages": []
+      "languages": [
+        {
+          "name": "Markdown",
+          "totalSeconds": 3707.338,
+          "percent": 45.25,
+          "text": "1 hr 1 min"
+        },
+        {
+          "name": "TypeScript",
+          "totalSeconds": 2139.067,
+          "percent": 26.11,
+          "text": "35 mins"
+        },
+        {
+          "name": "JavaScript",
+          "totalSeconds": 802.179,
+          "percent": 9.79,
+          "text": "13 mins"
+        },
+        {
+          "name": "JSON",
+          "totalSeconds": 684.156,
+          "percent": 8.35,
+          "text": "11 mins"
+        },
+        {
+          "name": "Other",
+          "totalSeconds": 433.736,
+          "percent": 5.29,
+          "text": "7 mins"
+        },
+        {
+          "name": "Ezhil",
+          "totalSeconds": 181,
+          "percent": 2.21,
+          "text": "3 mins"
+        },
+        {
+          "name": "XML",
+          "totalSeconds": 136,
+          "percent": 1.66,
+          "text": "2 mins"
+        },
+        {
+          "name": "HTML",
+          "totalSeconds": 50,
+          "percent": 0.61,
+          "text": "50 secs"
+        },
+        {
+          "name": "TSConfig",
+          "totalSeconds": 33,
+          "percent": 0.4,
+          "text": "33 secs"
+        },
+        {
+          "name": "Git Config",
+          "totalSeconds": 10,
+          "percent": 0.12,
+          "text": "10 secs"
+        },
+        {
+          "name": "CSS",
+          "totalSeconds": 9,
+          "percent": 0.11,
+          "text": "9 secs"
+        },
+        {
+          "name": "Less",
+          "totalSeconds": 6.936,
+          "percent": 0.08,
+          "text": "6 secs"
+        },
+        {
+          "name": "Swift",
+          "totalSeconds": 0,
+          "percent": 0,
+          "text": "0 secs"
+        }
+      ]
     },
     {
       "date": "2026-06-05",

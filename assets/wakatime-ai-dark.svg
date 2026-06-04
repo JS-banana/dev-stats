@@ -31,30 +31,30 @@
     <circle class="blue" cx="39" cy="-5" r="10" />
     <text class="badge-symbol" x="39" y="-5">T</text>
     <text class="metric-row-label" x="70" y="0">Total Tokens</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">229.7M</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">238.96M</text>
   </g>
   <g transform="translate(0 113)">
     <circle class="green" cx="39" cy="-5" r="10" />
     <text class="badge-symbol" x="39" y="-5">$</text>
     <text class="metric-row-label" x="70" y="0">AI Cost</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">$538.31</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">$565.68</text>
   </g>
   <g transform="translate(0 149)">
     <circle class="orange" cx="39" cy="-5" r="10" />
     <text class="badge-symbol" x="39" y="-5">P</text>
     <text class="metric-row-label" x="70" y="0">AI Prompts</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">276</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">259</text>
   </g>
   <g transform="translate(0 185)">
     <circle class="purple" cx="39" cy="-5" r="10" />
     <text class="badge-symbol" x="39" y="-5">#</text>
     <text class="metric-row-label" x="70" y="0">Line Changes</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">15,986</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">16,015</text>
   </g>
   <g>
     <circle cx="382" cy="122" r="48" fill="none" stroke="#2f3549" stroke-width="12" />
-    <circle cx="382" cy="122" r="48" fill="none" stroke="#58a6ff" stroke-linecap="round" stroke-width="12" stroke-dasharray="298.57 301.59" transform="rotate(-90 382 122)" />
-    <text class="ring-value" x="382" y="120">99.0%</text>
+    <circle cx="382" cy="122" r="48" fill="none" stroke="#58a6ff" stroke-linecap="round" stroke-width="12" stroke-dasharray="276.86 301.59" transform="rotate(-90 382 122)" />
+    <text class="ring-value" x="382" y="120">91.8%</text>
     <text class="ring-label" x="382" y="143">AI Share</text>
   </g>
 </svg>
