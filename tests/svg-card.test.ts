@@ -98,7 +98,14 @@ describe("renderAiStatsCard", () => {
     expect(svg).toContain("Line Changes");
     expect(svg).toContain("AI Share");
     expect(svg).toContain("20.6%");
+    expect(svg).toContain('data-icon="database"');
+    expect(svg).toContain('data-icon="dollar-sign"');
+    expect(svg).toContain('data-icon="message-circle"');
+    expect(svg).toContain('data-icon="code"');
     expect(svg).toContain("stroke-dasharray");
+    expect(svg).not.toContain(">T</text>");
+    expect(svg).not.toContain(">P</text>");
+    expect(svg).not.toContain(">#</text>");
     expect(svg).not.toContain("Messages");
     expect(svg).not.toContain(">Lines<");
     expect(svg).not.toContain("Human share");
