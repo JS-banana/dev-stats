@@ -102,6 +102,10 @@ describe("renderAiStatsCard", () => {
     expect(svg).toContain('data-icon="dollar-sign"');
     expect(svg).toContain('data-icon="message-circle"');
     expect(svg).toContain('data-icon="code"');
+    expect(svg).toContain('width="16" height="16"');
+    expect(svg).toContain("stroke-width: 2.4");
+    expect(svg).toContain('r="13"');
+    expect(svg).toContain('d="m14 4-4 16"');
     expect(svg).toContain("stroke-dasharray");
     expect(svg).not.toContain(">T</text>");
     expect(svg).not.toContain(">P</text>");
