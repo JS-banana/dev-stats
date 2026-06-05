@@ -93,12 +93,6 @@ Dark theme:
 ![Weekly AI stats](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai-dark.svg)
 ```
 
-## Docs
-
-- [Project context](docs/context/project-context.md)
-- [WakaTime API research](docs/research/wakatime-api-research.md)
-- [Development plan](docs/plan/development-plan.md)
-
 ## License
 
 MIT
