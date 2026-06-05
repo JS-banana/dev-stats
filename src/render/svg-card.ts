@@ -12,7 +12,7 @@ const AI_VALUE_X = 252;
 const AI_RING_CX = 382;
 const AI_RING_CY = 122;
 const AI_RING_RADIUS = 48;
-const ICON_SIZE = 13;
+const ICON_SIZE = 16;
 
 export type CardThemeName = "light" | "dark";
 
@@ -103,7 +103,7 @@ function cardShell(
     .percent { font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${theme.muted}; font-variant-numeric: tabular-nums; }
     .metric-row-label { font: 600 13px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${theme.text}; }
     .metric-row-value { font: 700 15px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${theme.text}; font-variant-numeric: tabular-nums; }
-    .badge-icon { fill: none; stroke: ${theme.badgeText}; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .badge-icon { fill: none; stroke: ${theme.badgeText}; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
     .ring-value { font: 700 22px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${theme.text}; text-anchor: middle; font-variant-numeric: tabular-nums; }
     .ring-label { font: 600 11px -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; fill: ${theme.muted}; text-anchor: middle; text-transform: uppercase; letter-spacing: 0.04em; }
     .bar-bg { fill: ${theme.barBg}; }
@@ -171,6 +171,7 @@ function metricIcon(icon: MetricIcon, x: number, y: number): string {
     case "code":
       return `<svg ${attrs}>
       <path d="m16 18 6-6-6-6" />
+      <path d="m14 4-4 16" />
       <path d="m8 6-6 6 6 6" />
     </svg>`;
   }
@@ -188,7 +189,7 @@ function metricRow(
 
   return `
   <g transform="translate(0 ${y})">
-    <circle class="${colorClass(index)}" cx="${iconX}" cy="${iconY}" r="11" />
+    <circle class="${colorClass(index)}" cx="${iconX}" cy="${iconY}" r="13" />
     ${metricIcon(icon, iconX, iconY)}
     <text class="metric-row-label" x="${AI_LABEL_X}" y="0">${escapeXml(label)}</text>
     <text class="metric-row-value" x="${AI_VALUE_X}" y="0" text-anchor="end">${escapeXml(value)}</text>

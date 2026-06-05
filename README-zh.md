@@ -6,14 +6,16 @@
 
 ## 预览
 
-![Dev Stats 卡片预览](./public/dev-stats-card-reference.png)
-
 生成的 SVG 卡片：
 
-| 浅色 | 深色 |
-| :---: | :---: |
+|                      浅色                       |                           深色                            |
+| :---------------------------------------------: | :-------------------------------------------------------: |
 | ![每周编程统计](./assets/wakatime-language.svg) | ![每周编程统计-深色](./assets/wakatime-language-dark.svg) |
-| ![每周 AI 统计](./assets/wakatime-ai.svg) | ![每周 AI 统计-深色](./assets/wakatime-ai-dark.svg) |
+|    ![每周 AI 统计](./assets/wakatime-ai.svg)    |    ![每周 AI 统计-深色](./assets/wakatime-ai-dark.svg)    |
+
+组合预览：
+
+![Dev Stats 卡片预览](./public/dev-stats-card-reference.png)
 
 ## 什么是 Dev Stats？
 
