@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="495" height="228" viewBox="0 0 495 228" role="img" aria-labelledby="title desc">
   <title id="title">Weekly AI Stats</title>
-  <desc id="desc">2026-W23 AI totals and coding share</desc>
+  <desc id="desc">2026-W25 AI totals and coding share</desc>
   <defs>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
       <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#1b1f24" flood-opacity="0.12" />
@@ -35,7 +35,7 @@
       <path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6" />
     </svg>
     <text class="metric-row-label" x="70" y="0">Total Tokens</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">264.28M</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">242.96M</text>
   </g>
   <g transform="translate(0 113)">
     <circle class="green" cx="39" cy="-5" r="13" />
@@ -44,7 +44,7 @@
       <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7H14a3.5 3.5 0 0 1 0 7H6" />
     </svg>
     <text class="metric-row-label" x="70" y="0">AI Cost</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">$638.16</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">$636.04</text>
   </g>
   <g transform="translate(0 149)">
     <circle class="orange" cx="39" cy="-5" r="13" />
@@ -55,7 +55,7 @@
       <path d="M16 12h.01" />
     </svg>
     <text class="metric-row-label" x="70" y="0">AI Prompts</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">265</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">306</text>
   </g>
   <g transform="translate(0 185)">
     <circle class="purple" cx="39" cy="-5" r="13" />
@@ -65,12 +65,12 @@
       <path d="m8 6-6 6 6 6" />
     </svg>
     <text class="metric-row-label" x="70" y="0">Line Changes</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">20,830</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">13,274</text>
   </g>
   <g>
     <circle cx="382" cy="122" r="48" fill="none" stroke="#eaeef2" stroke-width="12" />
-    <circle cx="382" cy="122" r="48" fill="none" stroke="#2f81f7" stroke-linecap="round" stroke-width="12" stroke-dasharray="280.18 301.59" transform="rotate(-90 382 122)" />
-    <text class="ring-value" x="382" y="120">92.9%</text>
+    <circle cx="382" cy="122" r="48" fill="none" stroke="#2f81f7" stroke-linecap="round" stroke-width="12" stroke-dasharray="289.22 301.59" transform="rotate(-90 382 122)" />
+    <text class="ring-value" x="382" y="120">95.9%</text>
     <text class="ring-label" x="382" y="143">AI Share</text>
   </g>
 </svg>
