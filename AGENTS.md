@@ -16,12 +16,11 @@
 
 非平凡任务先按需读取这些文件：
 
-1. `docs/context/project-context.md`：当前实现状态、产物、数据结构、命令和后续边界。
-2. `docs/research/wakatime-api-research.md`：WakaTime API、数据来源、保留范围和取舍依据。
-3. `docs/plan/development-plan.md`：第一版开发计划、架构和成功标准。
-4. 相关源码与测试文件。
+1. README：面向使用者的当前功能、命令和产物说明。
+2. `package.json`、相关源码与测试文件：当前实现和验证入口。
+3. 若本地存在未跟踪的 `docs/` 目录，可按需读取其中的上下文、研究或计划文档。
 
-不要把历史需求全文继续堆进 `AGENTS.md`。新上下文优先放到 `docs/context/`，研究内容放到 `docs/research/`，计划放到 `docs/plan/`。
+不要把历史需求全文继续堆进 `AGENTS.md`。如需长期沉淀上下文，可放入本地 `docs/`；公开使用说明仍优先维护 README。
 
 ## 工作方式
 
@@ -42,7 +41,7 @@
 - README 可使用 `public/dev-stats-card-reference.png` 作为设计效果图；真实可嵌入产物仍以 `assets/*.svg` 为准。
 - 预览页写入 `public/preview.html`。
 
-如果要改变数据 shape、归档路径、卡片文件名或公开产物内容，必须同步更新测试、README 和上下文文档。
+如果要改变数据 shape、归档路径、卡片文件名或公开产物内容，必须同步更新测试和 README；若本地维护了 `docs/`，也要同步更新对应上下文。
 
 ## 常用命令
 
@@ -69,7 +68,5 @@ npm run build
 
 ## 文档维护
 
-- 实现状态变更时更新 `docs/context/project-context.md`。
-- API 或数据保留策略变更时更新 `docs/research/wakatime-api-research.md`。
-- 开发计划、里程碑或成功标准变更时更新 `docs/plan/development-plan.md`。
-- README 面向使用者，保持简洁；细节放入 `docs/`。
+- README 面向使用者，保持简洁，并随公开行为变化同步更新。
+- 本地 `docs/` 当前不纳入版本控制；若存在并用于记录上下文、研究或计划，相关行为变更时同步维护。

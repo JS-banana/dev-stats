@@ -36,6 +36,12 @@ describe("WakaTimeClient", () => {
     );
   });
 
+  it("does not expose unused user agent fetching", () => {
+    const client = new WakaTimeClient({ apiKey: "secret" });
+
+    expect("fetchUserAgents" in client).toBe(false);
+  });
+
   it("throws a readable error when WakaTime returns a non-2xx response", async () => {
     const fetchMock = mockFetch(
       new Response("bad key", { status: 401, statusText: "Unauthorized" }),

@@ -93,12 +93,6 @@ npm run preview       # 使用测试数据生成预览（无需 API Key）
 ![每周 AI 统计](https://raw.githubusercontent.com/JS-banana/dev-stats/main/assets/wakatime-ai-dark.svg)
 ```
 
-## 项目文档
-
-- [项目上下文](docs/context/project-context.md)
-- [WakaTime API 研究](docs/research/wakatime-api-research.md)
-- [开发计划](docs/plan/development-plan.md)
-
 ## 开源协议
 
 MIT
