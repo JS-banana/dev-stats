@@ -36,4 +36,29 @@ describe("runCli", () => {
       "WAKATIME_API_KEY is required",
     );
   });
+
+  it("fetches only ISO week summaries for live updates", async () => {
+    const calls: string[] = [];
+    const fetchMock = (async (input: string | URL | Request) => {
+      calls.push(String(input));
+      return new Response(JSON.stringify({ data: [] }));
+    }) as typeof fetch;
+
+    await runCli(
+      [
+        "--root",
+        await mkdtemp(join(tmpdir(), "ai-wakatime-cli-")),
+        "--now",
+        "2026-05-30T00:00:00.000Z",
+      ],
+      {
+        env: { WAKATIME_API_KEY: "secret" },
+        fetch: fetchMock,
+      },
+    );
+
+    expect(calls).toEqual([
+      "https://wakatime.com/api/v1/users/current/summaries?start=2026-05-25&end=2026-05-31",
+    ]);
+  });
 });

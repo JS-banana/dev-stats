@@ -76,13 +76,13 @@ async function fetchBundle(options: CliOptions, deps: CliDependencies): Promise<
 
   const week = getIsoWeekWindow(options.now);
   const client = new WakaTimeClient({ apiKey, fetch: deps.fetch });
-  const [stats, summaries, userAgents] = await Promise.all([
-    client.fetchStats("last_7_days"),
-    client.fetchSummaries({ start: week.start, end: week.end, timezone: options.timezone }),
-    client.fetchUserAgents(),
-  ]);
+  const summaries = await client.fetchSummaries({
+    start: week.start,
+    end: week.end,
+    timezone: options.timezone,
+  });
 
-  return { stats, summaries, userAgents };
+  return { summaries };
 }
 
 export async function runCli(

@@ -1,8 +1,4 @@
-import type {
-  WakaTimeStatsResponse,
-  WakaTimeSummariesResponse,
-  WakaTimeUserAgentsResponse,
-} from "./types.js";
+import type { WakaTimeStatsResponse, WakaTimeSummariesResponse } from "./types.js";
 
 type FetchLike = typeof fetch;
 
@@ -39,10 +35,6 @@ export class WakaTimeClient {
       params.set("timezone", options.timezone);
     }
     return this.request<WakaTimeSummariesResponse>(`/users/current/summaries?${params.toString()}`);
-  }
-
-  fetchUserAgents(): Promise<WakaTimeUserAgentsResponse> {
-    return this.request<WakaTimeUserAgentsResponse>("/users/current/user_agents");
   }
 
   private async request<T>(path: string): Promise<T> {

@@ -54,26 +54,9 @@ export interface WakaTimeSummariesResponse {
   data?: WakaTimeSummaryDay[];
 }
 
-export interface WakaTimeUserAgent {
-  id?: string;
-  value?: string;
-  editor?: string;
-  version?: string;
-  os?: string;
-  last_seen_at?: string;
-  is_browser_extension?: boolean;
-  is_desktop_app?: boolean;
-  created_at?: string;
-}
-
-export interface WakaTimeUserAgentsResponse {
-  data?: WakaTimeUserAgent[];
-}
-
 export interface WakaTimeBundle {
-  stats: WakaTimeStatsResponse;
   summaries: WakaTimeSummariesResponse;
-  userAgents?: WakaTimeUserAgentsResponse;
+  stats?: WakaTimeStatsResponse;
 }
 
 export interface NormalizedLanguage {

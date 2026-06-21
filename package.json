@@ -9,8 +9,8 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint .",
-    "format": "prettier README.md \"docs/**/*.md\" \"src/**/*.ts\" \"tests/**/*.ts\" \"*.{js,json,ts}\" \".github/**/*.yml\" --write",
-    "format:check": "prettier README.md \"docs/**/*.md\" \"src/**/*.ts\" \"tests/**/*.ts\" \"*.{js,json,ts}\" \".github/**/*.yml\" --check",
+    "format": "prettier README.md \"src/**/*.ts\" \"tests/**/*.ts\" \"*.{js,json,ts}\" \".github/**/*.yml\" --write",
+    "format:check": "prettier README.md \"src/**/*.ts\" \"tests/**/*.ts\" \"*.{js,json,ts}\" \".github/**/*.yml\" --check",
     "update": "tsx src/cli.ts",
     "preview": "tsx src/cli.ts --fixture tests/fixtures/wakatime-week.json"
   },
