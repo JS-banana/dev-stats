@@ -1,59 +1,65 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-02T05:10:03.839Z",
+  "generatedAt": "2026-07-03T04:58:00.265Z",
   "week": {
     "id": "2026-W27",
     "start": "2026-06-29",
     "end": "2026-07-05"
   },
   "totals": {
-    "totalSeconds": 44071.262512,
-    "humanReadable": "12 hrs 15 mins",
-    "dailyAverageSeconds": 6295.894644571429,
-    "humanReadableDailyAverage": "1 hr 45 mins"
+    "totalSeconds": 49370.322269000004,
+    "humanReadable": "13 hrs 43 mins",
+    "dailyAverageSeconds": 7052.903181285715,
+    "humanReadableDailyAverage": "1 hr 58 mins"
   },
   "languages": [
     {
       "name": "TypeScript",
-      "totalSeconds": 12223.511339,
-      "percent": 27.7,
-      "text": "3 hrs 24 mins"
+      "totalSeconds": 14877.553189,
+      "percent": 30.1,
+      "text": "4 hrs 8 mins"
     },
     {
       "name": "Markdown",
-      "totalSeconds": 11550.12664,
-      "percent": 26.2,
-      "text": "3 hrs 13 mins"
+      "totalSeconds": 11867.28264,
+      "percent": 24,
+      "text": "3 hrs 18 mins"
     },
     {
       "name": "Other",
-      "totalSeconds": 8740.809384,
-      "percent": 19.8,
-      "text": "2 hrs 26 mins"
+      "totalSeconds": 9940.858290999999,
+      "percent": 20.1,
+      "text": "2 hrs 46 mins"
     },
     {
       "name": "Python",
       "totalSeconds": 6678.406655,
-      "percent": 15.2,
+      "percent": 13.5,
       "text": "1 hr 51 mins"
+    },
+    {
+      "name": "JSON",
+      "totalSeconds": 2113.767494,
+      "percent": 4.3,
+      "text": "35 mins"
     },
     {
       "name": "TOML",
       "totalSeconds": 1538.5659999999998,
-      "percent": 3.5,
+      "percent": 3.1,
       "text": "26 mins"
-    },
-    {
-      "name": "JSON",
-      "totalSeconds": 1448.149494,
-      "percent": 3.3,
-      "text": "24 mins"
     },
     {
       "name": "JavaScript",
       "totalSeconds": 1183.778,
-      "percent": 2.7,
+      "percent": 2.4,
       "text": "20 mins"
+    },
+    {
+      "name": "YAML",
+      "totalSeconds": 506.228,
+      "percent": 1,
+      "text": "8 mins"
     },
     {
       "name": "shell script",
@@ -78,33 +84,27 @@
       "totalSeconds": 53,
       "percent": 0.1,
       "text": "1 min"
-    },
-    {
-      "name": "YAML",
-      "totalSeconds": 44.033,
-      "percent": 0.1,
-      "text": "1 min"
     }
   ],
   "ai": {
     "additions": 4005,
     "deletions": 35,
-    "humanAdditions": 61,
-    "humanDeletions": 4,
+    "humanAdditions": 62,
+    "humanDeletions": 6,
     "lineChangesTotal": 4040,
-    "humanLineChangesTotal": 65,
-    "aiSharePercent": 98.4,
-    "humanSharePercent": 1.6,
-    "agentTotalCost": 787.566903,
-    "inputTokens": 154736537,
-    "outputTokens": 766433,
-    "promptEventsTotal": 61,
-    "sessions": 15,
+    "humanLineChangesTotal": 68,
+    "aiSharePercent": 98.3,
+    "humanSharePercent": 1.7,
+    "agentTotalCost": 807.954433,
+    "inputTokens": 158674717,
+    "outputTokens": 789654,
+    "promptEventsTotal": 63,
+    "sessions": 16,
     "agents": [
       {
         "name": "GPT",
         "lines": 2812,
-        "cost": 464.00314
+        "cost": 484.39067
       },
       {
         "name": "Opus",
@@ -382,27 +382,27 @@
     },
     {
       "date": "2026-07-02",
-      "totalSeconds": 8657.125,
-      "humanReadable": "2 hrs 24 mins",
+      "totalSeconds": 9436.480636,
+      "humanReadable": "2 hrs 37 mins",
       "ai": {
         "additions": 51,
         "deletions": 3,
-        "humanAdditions": 55,
-        "humanDeletions": 2,
+        "humanAdditions": 56,
+        "humanDeletions": 4,
         "lineChangesTotal": 54,
-        "humanLineChangesTotal": 57,
-        "aiSharePercent": 48.6,
-        "humanSharePercent": 51.4,
-        "agentTotalCost": 78.8898,
-        "inputTokens": 15579795,
-        "outputTokens": 59022,
+        "humanLineChangesTotal": 60,
+        "aiSharePercent": 47.4,
+        "humanSharePercent": 52.6,
+        "agentTotalCost": 95.531795,
+        "inputTokens": 18823186,
+        "outputTokens": 73190,
         "promptEventsTotal": 6,
         "sessions": 1,
         "agents": [
           {
             "name": "GPT",
             "lines": 54,
-            "cost": 78.8898
+            "cost": 95.531795
           }
         ]
       },
@@ -410,57 +410,57 @@
         {
           "name": "Python",
           "totalSeconds": 3064.991655,
-          "percent": 35.4,
+          "percent": 32.48,
           "text": "51 mins"
         },
         {
           "name": "Markdown",
-          "totalSeconds": 2154.11,
-          "percent": 24.88,
-          "text": "35 mins"
+          "totalSeconds": 2191.158,
+          "percent": 23.22,
+          "text": "36 mins"
         },
         {
           "name": "TOML",
           "totalSeconds": 1530.293,
-          "percent": 17.68,
+          "percent": 16.22,
           "text": "25 mins"
         },
         {
           "name": "TypeScript",
-          "totalSeconds": 1148.563,
-          "percent": 13.27,
+          "totalSeconds": 1170.814,
+          "percent": 12.41,
           "text": "19 mins"
         },
         {
           "name": "Other",
-          "totalSeconds": 432.680345,
-          "percent": 5,
-          "text": "7 mins"
+          "totalSeconds": 1152.736981,
+          "percent": 12.22,
+          "text": "19 mins"
         },
         {
           "name": "JSON",
           "totalSeconds": 187.605,
-          "percent": 2.17,
+          "percent": 1.99,
           "text": "3 mins"
         },
         {
           "name": "Bash",
           "totalSeconds": 135.702,
-          "percent": 1.57,
+          "percent": 1.44,
           "text": "2 mins"
         },
         {
           "name": "Git Config",
           "totalSeconds": 3.18,
-          "percent": 0.04,
+          "percent": 0.03,
           "text": "3 secs"
         }
       ]
     },
     {
       "date": "2026-07-03",
-      "totalSeconds": 0,
-      "humanReadable": "0 secs",
+      "totalSeconds": 4519.704121,
+      "humanReadable": "1 hr 15 mins",
       "ai": {
         "additions": 0,
         "deletions": 0,
@@ -470,14 +470,51 @@
         "humanLineChangesTotal": 0,
         "aiSharePercent": 0,
         "humanSharePercent": 100,
-        "agentTotalCost": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
-        "promptEventsTotal": 0,
-        "sessions": 0,
-        "agents": []
+        "agentTotalCost": 3.745535,
+        "inputTokens": 694789,
+        "outputTokens": 9053,
+        "promptEventsTotal": 2,
+        "sessions": 1,
+        "agents": [
+          {
+            "name": "GPT",
+            "lines": 0,
+            "cost": 3.745535
+          }
+        ]
       },
-      "languages": []
+      "languages": [
+        {
+          "name": "TypeScript",
+          "totalSeconds": 2631.79085,
+          "percent": 58.23,
+          "text": "43 mins"
+        },
+        {
+          "name": "JSON",
+          "totalSeconds": 665.618,
+          "percent": 14.73,
+          "text": "11 mins"
+        },
+        {
+          "name": "Other",
+          "totalSeconds": 479.992271,
+          "percent": 10.62,
+          "text": "7 mins"
+        },
+        {
+          "name": "YAML",
+          "totalSeconds": 462.195,
+          "percent": 10.23,
+          "text": "7 mins"
+        },
+        {
+          "name": "Markdown",
+          "totalSeconds": 280.108,
+          "percent": 6.2,
+          "text": "4 mins"
+        }
+      ]
     },
     {
       "date": "2026-07-04",
