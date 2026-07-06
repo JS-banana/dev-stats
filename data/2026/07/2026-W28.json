@@ -1,0 +1,346 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-06T05:36:41.239Z",
+  "week": {
+    "id": "2026-W28",
+    "start": "2026-07-06",
+    "end": "2026-07-12"
+  },
+  "totals": {
+    "totalSeconds": 16725,
+    "humanReadable": "4 hrs 39 mins",
+    "dailyAverageSeconds": 2389.285714285714,
+    "humanReadableDailyAverage": "40 mins"
+  },
+  "languages": [
+    {
+      "name": "CSS",
+      "totalSeconds": 4526.34181,
+      "percent": 27.1,
+      "text": "1 hr 15 mins"
+    },
+    {
+      "name": "TypeScript",
+      "totalSeconds": 4421.242694,
+      "percent": 26.4,
+      "text": "1 hr 14 mins"
+    },
+    {
+      "name": "Other",
+      "totalSeconds": 4305.804496,
+      "percent": 25.7,
+      "text": "1 hr 12 mins"
+    },
+    {
+      "name": "JSON",
+      "totalSeconds": 1752.534,
+      "percent": 10.5,
+      "text": "29 mins"
+    },
+    {
+      "name": "Text",
+      "totalSeconds": 746.28,
+      "percent": 4.5,
+      "text": "12 mins"
+    },
+    {
+      "name": "Markdown",
+      "totalSeconds": 426.141,
+      "percent": 2.5,
+      "text": "7 mins"
+    },
+    {
+      "name": "Image (png)",
+      "totalSeconds": 361.175,
+      "percent": 2.2,
+      "text": "6 mins"
+    },
+    {
+      "name": "Image (svg)",
+      "totalSeconds": 137,
+      "percent": 0.8,
+      "text": "2 mins"
+    },
+    {
+      "name": "Git Config",
+      "totalSeconds": 37,
+      "percent": 0.2,
+      "text": "1 min"
+    },
+    {
+      "name": "YAML",
+      "totalSeconds": 6.481,
+      "percent": 0,
+      "text": "0 mins"
+    },
+    {
+      "name": "JavaScript",
+      "totalSeconds": 4,
+      "percent": 0,
+      "text": "0 mins"
+    },
+    {
+      "name": "HTML",
+      "totalSeconds": 1,
+      "percent": 0,
+      "text": "0 mins"
+    }
+  ],
+  "ai": {
+    "additions": 2664,
+    "deletions": 456,
+    "humanAdditions": 1,
+    "humanDeletions": 2,
+    "lineChangesTotal": 3120,
+    "humanLineChangesTotal": 3,
+    "aiSharePercent": 99.9,
+    "humanSharePercent": 0.1,
+    "agentTotalCost": 93.234755,
+    "inputTokens": 46803765,
+    "outputTokens": 210092,
+    "promptEventsTotal": 43,
+    "sessions": 5,
+    "agents": [
+      {
+        "name": "GPT",
+        "lines": 2174,
+        "cost": 93.234755
+      }
+    ]
+  },
+  "days": [
+    {
+      "date": "2026-07-06",
+      "totalSeconds": 16725,
+      "humanReadable": "4 hrs 38 mins",
+      "ai": {
+        "additions": 2664,
+        "deletions": 456,
+        "humanAdditions": 1,
+        "humanDeletions": 2,
+        "lineChangesTotal": 3120,
+        "humanLineChangesTotal": 3,
+        "aiSharePercent": 99.9,
+        "humanSharePercent": 0.1,
+        "agentTotalCost": 93.234755,
+        "inputTokens": 46803765,
+        "outputTokens": 210092,
+        "promptEventsTotal": 43,
+        "sessions": 5,
+        "agents": [
+          {
+            "name": "GPT",
+            "lines": 2174,
+            "cost": 93.234755
+          }
+        ]
+      },
+      "languages": [
+        {
+          "name": "CSS",
+          "totalSeconds": 4526.34181,
+          "percent": 27.06,
+          "text": "1 hr 15 mins"
+        },
+        {
+          "name": "TypeScript",
+          "totalSeconds": 4421.242694,
+          "percent": 26.43,
+          "text": "1 hr 13 mins"
+        },
+        {
+          "name": "Other",
+          "totalSeconds": 4305.804496,
+          "percent": 25.74,
+          "text": "1 hr 11 mins"
+        },
+        {
+          "name": "JSON",
+          "totalSeconds": 1752.534,
+          "percent": 10.48,
+          "text": "29 mins"
+        },
+        {
+          "name": "Text",
+          "totalSeconds": 746.28,
+          "percent": 4.46,
+          "text": "12 mins"
+        },
+        {
+          "name": "Markdown",
+          "totalSeconds": 426.141,
+          "percent": 2.55,
+          "text": "7 mins"
+        },
+        {
+          "name": "Image (png)",
+          "totalSeconds": 361.175,
+          "percent": 2.16,
+          "text": "6 mins"
+        },
+        {
+          "name": "Image (svg)",
+          "totalSeconds": 137,
+          "percent": 0.82,
+          "text": "2 mins"
+        },
+        {
+          "name": "Git Config",
+          "totalSeconds": 37,
+          "percent": 0.22,
+          "text": "37 secs"
+        },
+        {
+          "name": "YAML",
+          "totalSeconds": 6.481,
+          "percent": 0.04,
+          "text": "6 secs"
+        },
+        {
+          "name": "JavaScript",
+          "totalSeconds": 4,
+          "percent": 0.02,
+          "text": "4 secs"
+        },
+        {
+          "name": "HTML",
+          "totalSeconds": 1,
+          "percent": 0.01,
+          "text": "1 sec"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-07",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-08",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-09",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-10",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-11",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-12",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    }
+  ]
+}
