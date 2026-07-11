@@ -35,7 +35,7 @@
       <path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6" />
     </svg>
     <text class="metric-row-label" x="70" y="0">Total Tokens</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">260.95M</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">324.28M</text>
   </g>
   <g transform="translate(0 113)">
     <circle class="green" cx="39" cy="-5" r="13" />
@@ -44,7 +44,7 @@
       <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7H14a3.5 3.5 0 0 1 0 7H6" />
     </svg>
     <text class="metric-row-label" x="70" y="0">AI Cost</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">$704.13</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">$854.91</text>
   </g>
   <g transform="translate(0 149)">
     <circle class="orange" cx="39" cy="-5" r="13" />
@@ -55,7 +55,7 @@
       <path d="M16 12h.01" />
     </svg>
     <text class="metric-row-label" x="70" y="0">AI Prompts</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">409</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">421</text>
   </g>
   <g transform="translate(0 185)">
     <circle class="purple" cx="39" cy="-5" r="13" />
@@ -65,7 +65,7 @@
       <path d="m8 6-6 6 6 6" />
     </svg>
     <text class="metric-row-label" x="70" y="0">Line Changes</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">16,971</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">23,418</text>
   </g>
   <g>
     <circle cx="382" cy="122" r="48" fill="none" stroke="#eaeef2" stroke-width="12" />
