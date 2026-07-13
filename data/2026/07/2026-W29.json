@@ -1,0 +1,358 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-13T04:47:46.504Z",
+  "week": {
+    "id": "2026-W29",
+    "start": "2026-07-13",
+    "end": "2026-07-19"
+  },
+  "totals": {
+    "totalSeconds": 7677.922188,
+    "humanReadable": "2 hrs 8 mins",
+    "dailyAverageSeconds": 1096.8460268571428,
+    "humanReadableDailyAverage": "18 mins"
+  },
+  "languages": [
+    {
+      "name": "Markdown",
+      "totalSeconds": 2746.18692,
+      "percent": 35.8,
+      "text": "46 mins"
+    },
+    {
+      "name": "Other",
+      "totalSeconds": 1678.262875,
+      "percent": 21.9,
+      "text": "28 mins"
+    },
+    {
+      "name": "TypeScript",
+      "totalSeconds": 1664.388726,
+      "percent": 21.7,
+      "text": "28 mins"
+    },
+    {
+      "name": "HTML",
+      "totalSeconds": 651.946,
+      "percent": 8.5,
+      "text": "11 mins"
+    },
+    {
+      "name": "JSON",
+      "totalSeconds": 385.761,
+      "percent": 5,
+      "text": "6 mins"
+    },
+    {
+      "name": "Text",
+      "totalSeconds": 238.928993,
+      "percent": 3.1,
+      "text": "4 mins"
+    },
+    {
+      "name": "YAML",
+      "totalSeconds": 161.417,
+      "percent": 2.1,
+      "text": "3 mins"
+    },
+    {
+      "name": "TOML",
+      "totalSeconds": 92,
+      "percent": 1.2,
+      "text": "2 mins"
+    },
+    {
+      "name": "CSS",
+      "totalSeconds": 41,
+      "percent": 0.5,
+      "text": "1 min"
+    },
+    {
+      "name": "Git Config",
+      "totalSeconds": 12,
+      "percent": 0.2,
+      "text": "0 mins"
+    },
+    {
+      "name": "Docker",
+      "totalSeconds": 4.030674,
+      "percent": 0.1,
+      "text": "0 mins"
+    },
+    {
+      "name": "Image (svg)",
+      "totalSeconds": 2,
+      "percent": 0,
+      "text": "0 mins"
+    },
+    {
+      "name": "TSConfig",
+      "totalSeconds": 0,
+      "percent": 0,
+      "text": "0 mins"
+    }
+  ],
+  "ai": {
+    "additions": 512,
+    "deletions": 20,
+    "humanAdditions": 1,
+    "humanDeletions": 8,
+    "lineChangesTotal": 532,
+    "humanLineChangesTotal": 9,
+    "aiSharePercent": 98.3,
+    "humanSharePercent": 1.7,
+    "agentTotalCost": 152.612065,
+    "inputTokens": 35677315,
+    "outputTokens": 112479,
+    "promptEventsTotal": 46,
+    "sessions": 11,
+    "agents": [
+      {
+        "name": "GPT",
+        "lines": 518,
+        "cost": 152.612065
+      }
+    ]
+  },
+  "days": [
+    {
+      "date": "2026-07-13",
+      "totalSeconds": 7677.922188,
+      "humanReadable": "2 hrs 7 mins",
+      "ai": {
+        "additions": 512,
+        "deletions": 20,
+        "humanAdditions": 1,
+        "humanDeletions": 8,
+        "lineChangesTotal": 532,
+        "humanLineChangesTotal": 9,
+        "aiSharePercent": 98.3,
+        "humanSharePercent": 1.7,
+        "agentTotalCost": 152.612065,
+        "inputTokens": 35677315,
+        "outputTokens": 112479,
+        "promptEventsTotal": 46,
+        "sessions": 11,
+        "agents": [
+          {
+            "name": "GPT",
+            "lines": 518,
+            "cost": 152.612065
+          }
+        ]
+      },
+      "languages": [
+        {
+          "name": "Markdown",
+          "totalSeconds": 2746.18692,
+          "percent": 35.77,
+          "text": "45 mins"
+        },
+        {
+          "name": "Other",
+          "totalSeconds": 1678.262875,
+          "percent": 21.86,
+          "text": "27 mins"
+        },
+        {
+          "name": "TypeScript",
+          "totalSeconds": 1664.388726,
+          "percent": 21.68,
+          "text": "27 mins"
+        },
+        {
+          "name": "HTML",
+          "totalSeconds": 651.946,
+          "percent": 8.49,
+          "text": "10 mins"
+        },
+        {
+          "name": "JSON",
+          "totalSeconds": 385.761,
+          "percent": 5.02,
+          "text": "6 mins"
+        },
+        {
+          "name": "Text",
+          "totalSeconds": 238.928993,
+          "percent": 3.11,
+          "text": "3 mins"
+        },
+        {
+          "name": "YAML",
+          "totalSeconds": 161.417,
+          "percent": 2.1,
+          "text": "2 mins"
+        },
+        {
+          "name": "TOML",
+          "totalSeconds": 92,
+          "percent": 1.2,
+          "text": "1 min"
+        },
+        {
+          "name": "CSS",
+          "totalSeconds": 41,
+          "percent": 0.53,
+          "text": "41 secs"
+        },
+        {
+          "name": "Git Config",
+          "totalSeconds": 12,
+          "percent": 0.16,
+          "text": "12 secs"
+        },
+        {
+          "name": "Docker",
+          "totalSeconds": 4.030674,
+          "percent": 0.05,
+          "text": "4 secs"
+        },
+        {
+          "name": "Image (svg)",
+          "totalSeconds": 2,
+          "percent": 0.03,
+          "text": "2 secs"
+        },
+        {
+          "name": "TSConfig",
+          "totalSeconds": 0,
+          "percent": 0,
+          "text": "0 secs"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-14",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-15",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-16",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-17",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-18",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-19",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    }
+  ]
+}
