@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-20T04:53:26.262Z",
+  "week": {
+    "id": "2026-W30",
+    "start": "2026-07-20",
+    "end": "2026-07-26"
+  },
+  "totals": {
+    "totalSeconds": 46179.065479,
+    "humanReadable": "12 hrs 50 mins",
+    "dailyAverageSeconds": 6597.009354142857,
+    "humanReadableDailyAverage": "1 hr 50 mins"
+  },
+  "languages": [
+    {
+      "name": "Other",
+      "totalSeconds": 44307.756681,
+      "percent": 95.9,
+      "text": "12 hrs 18 mins"
+    },
+    {
+      "name": "TypeScript",
+      "totalSeconds": 932.953647,
+      "percent": 2,
+      "text": "16 mins"
+    },
+    {
+      "name": "Markdown",
+      "totalSeconds": 502.139701,
+      "percent": 1.1,
+      "text": "8 mins"
+    },
+    {
+      "name": "Bash",
+      "totalSeconds": 370.40645,
+      "percent": 0.8,
+      "text": "6 mins"
+    },
+    {
+      "name": "YAML",
+      "totalSeconds": 31,
+      "percent": 0.1,
+      "text": "1 min"
+    },
+    {
+      "name": "XML",
+      "totalSeconds": 21.619,
+      "percent": 0,
+      "text": "0 mins"
+    },
+    {
+      "name": "JSON",
+      "totalSeconds": 13.19,
+      "percent": 0,
+      "text": "0 mins"
+    }
+  ],
+  "ai": {
+    "additions": 0,
+    "deletions": 0,
+    "humanAdditions": 6,
+    "humanDeletions": 3,
+    "lineChangesTotal": 0,
+    "humanLineChangesTotal": 9,
+    "aiSharePercent": 0,
+    "humanSharePercent": 100,
+    "agentTotalCost": 1.666935,
+    "inputTokens": 309291,
+    "outputTokens": 4016,
+    "promptEventsTotal": 2,
+    "sessions": 1,
+    "agents": [
+      {
+        "name": "GPT",
+        "lines": 0,
+        "cost": 1.666935
+      }
+    ]
+  },
+  "days": [
+    {
+      "date": "2026-07-20",
+      "totalSeconds": 46179.065479,
+      "humanReadable": "12 hrs 49 mins",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 6,
+        "humanDeletions": 3,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 9,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 1.666935,
+        "inputTokens": 309291,
+        "outputTokens": 4016,
+        "promptEventsTotal": 2,
+        "sessions": 1,
+        "agents": [
+          {
+            "name": "GPT",
+            "lines": 0,
+            "cost": 1.666935
+          }
+        ]
+      },
+      "languages": [
+        {
+          "name": "Other",
+          "totalSeconds": 44307.756681,
+          "percent": 95.95,
+          "text": "12 hrs 18 mins"
+        },
+        {
+          "name": "TypeScript",
+          "totalSeconds": 932.953647,
+          "percent": 2.02,
+          "text": "15 mins"
+        },
+        {
+          "name": "Markdown",
+          "totalSeconds": 502.139701,
+          "percent": 1.09,
+          "text": "8 mins"
+        },
+        {
+          "name": "Bash",
+          "totalSeconds": 370.40645,
+          "percent": 0.8,
+          "text": "6 mins"
+        },
+        {
+          "name": "YAML",
+          "totalSeconds": 31,
+          "percent": 0.07,
+          "text": "31 secs"
+        },
+        {
+          "name": "XML",
+          "totalSeconds": 21.619,
+          "percent": 0.05,
+          "text": "21 secs"
+        },
+        {
+          "name": "JSON",
+          "totalSeconds": 13.19,
+          "percent": 0.03,
+          "text": "13 secs"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-22",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-23",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-24",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-25",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-07-26",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    }
+  ]
+}
