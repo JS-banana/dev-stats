@@ -29,37 +29,37 @@
   
   <g transform="translate(0 76)">
     <text class="label" x="25" y="0">Other</text>
-    <text class="time" x="138" y="0">52 hrs 53 mins</text>
+    <text class="time" x="138" y="0">65 hrs 58 mins</text>
     <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
-    <rect class="blue" x="236" y="-10" width="131" height="8" rx="4" />
-    <text class="percent" x="460" y="0" text-anchor="end">87.4%</text>
+    <rect class="blue" x="236" y="-10" width="129" height="8" rx="4" />
+    <text class="percent" x="460" y="0" text-anchor="end">86.3%</text>
   </g>
   <g transform="translate(0 106)">
     <text class="label" x="25" y="0">TypeScript</text>
-    <text class="time" x="138" y="0">3 hrs 51 mins</text>
+    <text class="time" x="138" y="0">5 hrs 45 mins</text>
     <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
-    <rect class="green" x="236" y="-10" width="10" height="8" rx="4" />
-    <text class="percent" x="460" y="0" text-anchor="end">6.4%</text>
+    <rect class="green" x="236" y="-10" width="11" height="8" rx="4" />
+    <text class="percent" x="460" y="0" text-anchor="end">7.5%</text>
   </g>
   <g transform="translate(0 136)">
     <text class="label" x="25" y="0">Markdown</text>
-    <text class="time" x="138" y="0">2 hrs 46 mins</text>
+    <text class="time" x="138" y="0">3 hrs 12 mins</text>
     <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
-    <rect class="orange" x="236" y="-10" width="7" height="8" rx="4" />
-    <text class="percent" x="460" y="0" text-anchor="end">4.6%</text>
+    <rect class="orange" x="236" y="-10" width="6" height="8" rx="4" />
+    <text class="percent" x="460" y="0" text-anchor="end">4.2%</text>
   </g>
   <g transform="translate(0 166)">
     <text class="label" x="25" y="0">JSON</text>
-    <text class="time" x="138" y="0">45 mins</text>
+    <text class="time" x="138" y="0">1 hr 14 mins</text>
     <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
     <rect class="purple" x="236" y="-10" width="2" height="8" rx="4" />
-    <text class="percent" x="460" y="0" text-anchor="end">1.2%</text>
+    <text class="percent" x="460" y="0" text-anchor="end">1.6%</text>
   </g>
   <g transform="translate(0 196)">
     <text class="label" x="25" y="0">JavaScript</text>
     <text class="time" x="138" y="0">13 mins</text>
     <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
     <rect class="pink" x="236" y="-10" width="2" height="8" rx="4" />
-    <text class="percent" x="460" y="0" text-anchor="end">0.4%</text>
+    <text class="percent" x="460" y="0" text-anchor="end">0.3%</text>
   </g>
 </svg>
