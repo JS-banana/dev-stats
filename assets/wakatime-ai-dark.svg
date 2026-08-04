@@ -35,7 +35,7 @@
       <path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6" />
     </svg>
     <text class="metric-row-label" x="70" y="0">Total Tokens</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">0</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">6.43M</text>
   </g>
   <g transform="translate(0 113)">
     <circle class="green" cx="39" cy="-5" r="13" />
@@ -55,7 +55,7 @@
       <path d="M16 12h.01" />
     </svg>
     <text class="metric-row-label" x="70" y="0">AI Prompts</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">0</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">4</text>
   </g>
   <g transform="translate(0 185)">
     <circle class="purple" cx="39" cy="-5" r="13" />
@@ -65,12 +65,12 @@
       <path d="m8 6-6 6 6 6" />
     </svg>
     <text class="metric-row-label" x="70" y="0">Line Changes</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">44</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">149</text>
   </g>
   <g>
     <circle cx="382" cy="122" r="48" fill="none" stroke="#2f3549" stroke-width="12" />
-    <circle cx="382" cy="122" r="48" fill="none" stroke="#58a6ff" stroke-linecap="round" stroke-width="12" stroke-dasharray="0 301.59" transform="rotate(-90 382 122)" />
-    <text class="ring-value" x="382" y="120">0.0%</text>
+    <circle cx="382" cy="122" r="48" fill="none" stroke="#58a6ff" stroke-linecap="round" stroke-width="12" stroke-dasharray="64.84 301.59" transform="rotate(-90 382 122)" />
+    <text class="ring-value" x="382" y="120">21.5%</text>
     <text class="ring-label" x="382" y="143">AI Share</text>
   </g>
 </svg>
