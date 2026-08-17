@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="228" viewBox="0 0 495 228" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="168" viewBox="0 0 495 168" role="img" aria-labelledby="title desc">
   <title id="title">Weekly Coding Stats</title>
-  <desc id="desc">2026-W33 language coding time</desc>
+  <desc id="desc">2026-W34 language coding time</desc>
   <defs>
     <filter id="shadow" x="-5%" y="-5%" width="110%" height="120%">
       <feDropShadow dx="0" dy="1" stdDeviation="1.2" flood-color="#1b1f24" flood-opacity="0.12" />
@@ -24,42 +24,21 @@
     .purple { fill: #8250df; }
     .pink { fill: #bf3989; }
   </style>
-  <rect class="card" x="0.5" y="0.5" width="494" height="227" rx="6" />
+  <rect class="card" x="0.5" y="0.5" width="494" height="167" rx="6" />
   <text class="title" x="25" y="34">Weekly Coding Stats</text>
   
   <g transform="translate(0 76)">
     <text class="label" x="25" y="0">Markdown</text>
-    <text class="time" x="138" y="0">12 hrs</text>
+    <text class="time" x="138" y="0">1 hr 1 min</text>
     <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
-    <rect class="blue" x="236" y="-10" width="59" height="8" rx="4" />
-    <text class="percent" x="460" y="0" text-anchor="end">39.4%</text>
+    <rect class="blue" x="236" y="-10" width="133" height="8" rx="4" />
+    <text class="percent" x="460" y="0" text-anchor="end">88.4%</text>
   </g>
   <g transform="translate(0 106)">
-    <text class="label" x="25" y="0">TypeScript</text>
-    <text class="time" x="138" y="0">10 hrs 8 mins</text>
-    <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
-    <rect class="green" x="236" y="-10" width="50" height="8" rx="4" />
-    <text class="percent" x="460" y="0" text-anchor="end">33.2%</text>
-  </g>
-  <g transform="translate(0 136)">
     <text class="label" x="25" y="0">Other</text>
-    <text class="time" x="138" y="0">4 hrs 30 mins</text>
+    <text class="time" x="138" y="0">8 mins</text>
     <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
-    <rect class="orange" x="236" y="-10" width="22" height="8" rx="4" />
-    <text class="percent" x="460" y="0" text-anchor="end">14.8%</text>
-  </g>
-  <g transform="translate(0 166)">
-    <text class="label" x="25" y="0">JSON</text>
-    <text class="time" x="138" y="0">1 hr 32 mins</text>
-    <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
-    <rect class="purple" x="236" y="-10" width="8" height="8" rx="4" />
-    <text class="percent" x="460" y="0" text-anchor="end">5.0%</text>
-  </g>
-  <g transform="translate(0 196)">
-    <text class="label" x="25" y="0">TOML</text>
-    <text class="time" x="138" y="0">51 mins</text>
-    <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
-    <rect class="pink" x="236" y="-10" width="4" height="8" rx="4" />
-    <text class="percent" x="460" y="0" text-anchor="end">2.8%</text>
+    <rect class="green" x="236" y="-10" width="17" height="8" rx="4" />
+    <text class="percent" x="460" y="0" text-anchor="end">11.6%</text>
   </g>
 </svg>

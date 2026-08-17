@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-17T02:34:09.488Z",
+  "week": {
+    "id": "2026-W34",
+    "start": "2026-08-17",
+    "end": "2026-08-23"
+  },
+  "totals": {
+    "totalSeconds": 4145.892195,
+    "humanReadable": "1 hr 9 mins",
+    "dailyAverageSeconds": 592.2703135714286,
+    "humanReadableDailyAverage": "10 mins"
+  },
+  "languages": [
+    {
+      "name": "Markdown",
+      "totalSeconds": 3665.895918,
+      "percent": 88.4,
+      "text": "1 hr 1 min"
+    },
+    {
+      "name": "Other",
+      "totalSeconds": 479.996277,
+      "percent": 11.6,
+      "text": "8 mins"
+    }
+  ],
+  "ai": {
+    "additions": 42,
+    "deletions": 0,
+    "humanAdditions": 22,
+    "humanDeletions": 13,
+    "lineChangesTotal": 42,
+    "humanLineChangesTotal": 35,
+    "aiSharePercent": 54.5,
+    "humanSharePercent": 45.5,
+    "agentTotalCost": 0,
+    "inputTokens": 2002700,
+    "outputTokens": 55284,
+    "promptEventsTotal": 24,
+    "sessions": 14,
+    "agents": []
+  },
+  "days": [
+    {
+      "date": "2026-08-17",
+      "totalSeconds": 4145.892195,
+      "humanReadable": "1 hr 9 mins",
+      "ai": {
+        "additions": 42,
+        "deletions": 0,
+        "humanAdditions": 22,
+        "humanDeletions": 13,
+        "lineChangesTotal": 42,
+        "humanLineChangesTotal": 35,
+        "aiSharePercent": 54.5,
+        "humanSharePercent": 45.5,
+        "agentTotalCost": 0,
+        "inputTokens": 2002700,
+        "outputTokens": 55284,
+        "promptEventsTotal": 24,
+        "sessions": 14,
+        "agents": []
+      },
+      "languages": [
+        {
+          "name": "Markdown",
+          "totalSeconds": 3665.895918,
+          "percent": 88.42,
+          "text": "1 hr 1 min"
+        },
+        {
+          "name": "Other",
+          "totalSeconds": 479.996277,
+          "percent": 11.58,
+          "text": "7 mins"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-18",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-08-19",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-08-20",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-08-21",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-08-22",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-08-23",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    }
+  ]
+}
