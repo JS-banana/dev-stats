@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-24T02:37:38.256Z",
+  "week": {
+    "id": "2026-W35",
+    "start": "2026-08-24",
+    "end": "2026-08-30"
+  },
+  "totals": {
+    "totalSeconds": 240.008882,
+    "humanReadable": "4 mins",
+    "dailyAverageSeconds": 34.286983142857146,
+    "humanReadableDailyAverage": "1 min"
+  },
+  "languages": [
+    {
+      "name": "Other",
+      "totalSeconds": 191.404552,
+      "percent": 79.7,
+      "text": "3 mins"
+    },
+    {
+      "name": "TypeScript",
+      "totalSeconds": 48.60433,
+      "percent": 20.3,
+      "text": "1 min"
+    }
+  ],
+  "ai": {
+    "additions": 0,
+    "deletions": 0,
+    "humanAdditions": 0,
+    "humanDeletions": 0,
+    "lineChangesTotal": 0,
+    "humanLineChangesTotal": 0,
+    "aiSharePercent": 0,
+    "humanSharePercent": 100,
+    "agentTotalCost": 0,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "promptEventsTotal": 0,
+    "sessions": 0,
+    "agents": []
+  },
+  "days": [
+    {
+      "date": "2026-08-24",
+      "totalSeconds": 240.008882,
+      "humanReadable": "4 mins",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": [
+        {
+          "name": "Other",
+          "totalSeconds": 191.404552,
+          "percent": 79.75,
+          "text": "3 mins"
+        },
+        {
+          "name": "TypeScript",
+          "totalSeconds": 48.60433,
+          "percent": 20.25,
+          "text": "48 secs"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-25",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-08-26",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-08-27",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-08-28",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-08-29",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    },
+    {
+      "date": "2026-08-30",
+      "totalSeconds": 0,
+      "humanReadable": "0 secs",
+      "ai": {
+        "additions": 0,
+        "deletions": 0,
+        "humanAdditions": 0,
+        "humanDeletions": 0,
+        "lineChangesTotal": 0,
+        "humanLineChangesTotal": 0,
+        "aiSharePercent": 0,
+        "humanSharePercent": 100,
+        "agentTotalCost": 0,
+        "inputTokens": 0,
+        "outputTokens": 0,
+        "promptEventsTotal": 0,
+        "sessions": 0,
+        "agents": []
+      },
+      "languages": []
+    }
+  ]
+}
