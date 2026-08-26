@@ -1,70 +1,70 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-25T02:31:27.922Z",
+  "generatedAt": "2026-08-26T02:39:23.957Z",
   "week": {
     "id": "2026-W35",
     "start": "2026-08-24",
     "end": "2026-08-30"
   },
   "totals": {
-    "totalSeconds": 23969.879292,
-    "humanReadable": "6 hrs 39 mins",
-    "dailyAverageSeconds": 3424.2684702857146,
-    "humanReadableDailyAverage": "57 mins"
+    "totalSeconds": 48402.125161,
+    "humanReadable": "13 hrs 27 mins",
+    "dailyAverageSeconds": 6914.589308714286,
+    "humanReadableDailyAverage": "1 hr 55 mins"
   },
   "languages": [
     {
       "name": "TypeScript",
-      "totalSeconds": 8584.46133,
-      "percent": 35.8,
-      "text": "2 hrs 23 mins"
+      "totalSeconds": 17754.214629,
+      "percent": 36.7,
+      "text": "4 hrs 56 mins"
     },
     {
       "name": "Other",
-      "totalSeconds": 6279.273023,
-      "percent": 26.2,
-      "text": "1 hr 45 mins"
+      "totalSeconds": 10262.465282000001,
+      "percent": 21.2,
+      "text": "2 hrs 51 mins"
     },
     {
       "name": "Markdown",
-      "totalSeconds": 3858.415,
-      "percent": 16.1,
-      "text": "1 hr 4 mins"
+      "totalSeconds": 9661.383,
+      "percent": 20,
+      "text": "2 hrs 41 mins"
     },
     {
       "name": "JSON",
-      "totalSeconds": 3100.676939,
-      "percent": 12.9,
-      "text": "52 mins"
+      "totalSeconds": 7668.285250000001,
+      "percent": 15.8,
+      "text": "2 hrs 8 mins"
     },
     {
       "name": "YAML",
       "totalSeconds": 1535.107,
-      "percent": 6.4,
+      "percent": 3.2,
       "text": "26 mins"
+    },
+    {
+      "name": "JavaScript",
+      "totalSeconds": 1084.511,
+      "percent": 2.2,
+      "text": "18 mins"
     },
     {
       "name": "Git",
       "totalSeconds": 189.168,
-      "percent": 0.8,
-      "text": "3 mins"
-    },
-    {
-      "name": "JavaScript",
-      "totalSeconds": 175.787,
-      "percent": 0.7,
+      "percent": 0.4,
       "text": "3 mins"
     },
     {
       "name": "Bash",
       "totalSeconds": 160.159,
-      "percent": 0.7,
+      "percent": 0.3,
       "text": "3 mins"
     },
     {
       "name": "TOML",
       "totalSeconds": 56,
-      "percent": 0.2,
+      "percent": 0.1,
       "text": "1 min"
     },
     {
@@ -75,19 +75,19 @@
     }
   ],
   "ai": {
-    "additions": 3719,
-    "deletions": 11,
-    "humanAdditions": 17,
-    "humanDeletions": 16,
-    "lineChangesTotal": 3730,
-    "humanLineChangesTotal": 33,
-    "aiSharePercent": 99.1,
-    "humanSharePercent": 0.9,
+    "additions": 4569,
+    "deletions": 12,
+    "humanAdditions": 70,
+    "humanDeletions": 92,
+    "lineChangesTotal": 4581,
+    "humanLineChangesTotal": 162,
+    "aiSharePercent": 96.6,
+    "humanSharePercent": 3.4,
     "agentTotalCost": 0,
-    "inputTokens": 7472192,
-    "outputTokens": 580441,
-    "promptEventsTotal": 58,
-    "sessions": 97,
+    "inputTokens": 15586889,
+    "outputTokens": 850747,
+    "promptEventsTotal": 101,
+    "sessions": 226,
     "agents": []
   },
   "days": [
@@ -176,72 +176,109 @@
     },
     {
       "date": "2026-08-25",
-      "totalSeconds": 4308.061685,
-      "humanReadable": "1 hr 11 mins",
+      "totalSeconds": 26160.460554,
+      "humanReadable": "7 hrs 16 mins",
       "ai": {
-        "additions": 0,
-        "deletions": 0,
-        "humanAdditions": 0,
-        "humanDeletions": 0,
-        "lineChangesTotal": 0,
-        "humanLineChangesTotal": 0,
-        "aiSharePercent": 0,
-        "humanSharePercent": 100,
+        "additions": 850,
+        "deletions": 1,
+        "humanAdditions": 52,
+        "humanDeletions": 76,
+        "lineChangesTotal": 851,
+        "humanLineChangesTotal": 128,
+        "aiSharePercent": 86.9,
+        "humanSharePercent": 13.1,
         "agentTotalCost": 0,
-        "inputTokens": 760765,
-        "outputTokens": 50158,
-        "promptEventsTotal": 5,
-        "sessions": 2,
+        "inputTokens": 8649422,
+        "outputTokens": 318229,
+        "promptEventsTotal": 46,
+        "sessions": 123,
         "agents": []
       },
       "languages": [
         {
-          "name": "Other",
-          "totalSeconds": 2928.329685,
-          "percent": 67.97,
-          "text": "48 mins"
-        },
-        {
-          "name": "JSON",
-          "totalSeconds": 643.653,
-          "percent": 14.94,
-          "text": "10 mins"
+          "name": "TypeScript",
+          "totalSeconds": 9344.452299,
+          "percent": 35.72,
+          "text": "2 hrs 35 mins"
         },
         {
           "name": "Markdown",
-          "totalSeconds": 552.995,
-          "percent": 12.84,
-          "text": "9 mins"
+          "totalSeconds": 6354.989,
+          "percent": 24.29,
+          "text": "1 hr 45 mins"
         },
         {
-          "name": "TypeScript",
-          "totalSeconds": 183.084,
-          "percent": 4.25,
-          "text": "3 mins"
+          "name": "Other",
+          "totalSeconds": 5298.6467,
+          "percent": 20.25,
+          "text": "1 hr 28 mins"
+        },
+        {
+          "name": "JSON",
+          "totalSeconds": 4386.937555,
+          "percent": 16.77,
+          "text": "1 hr 13 mins"
+        },
+        {
+          "name": "JavaScript",
+          "totalSeconds": 775.435,
+          "percent": 2.96,
+          "text": "12 mins"
         }
       ]
     },
     {
       "date": "2026-08-26",
-      "totalSeconds": 0,
-      "humanReadable": "0 secs",
+      "totalSeconds": 2579.847,
+      "humanReadable": "42 mins",
       "ai": {
         "additions": 0,
         "deletions": 0,
-        "humanAdditions": 0,
+        "humanAdditions": 1,
         "humanDeletions": 0,
         "lineChangesTotal": 0,
-        "humanLineChangesTotal": 0,
+        "humanLineChangesTotal": 1,
         "aiSharePercent": 0,
         "humanSharePercent": 100,
         "agentTotalCost": 0,
-        "inputTokens": 0,
-        "outputTokens": 0,
-        "promptEventsTotal": 0,
-        "sessions": 0,
+        "inputTokens": 226040,
+        "outputTokens": 2235,
+        "promptEventsTotal": 2,
+        "sessions": 8,
         "agents": []
       },
-      "languages": []
+      "languages": [
+        {
+          "name": "Other",
+          "totalSeconds": 1612.875244,
+          "percent": 62.52,
+          "text": "26 mins"
+        },
+        {
+          "name": "JSON",
+          "totalSeconds": 824.323756,
+          "percent": 31.95,
+          "text": "13 mins"
+        },
+        {
+          "name": "JavaScript",
+          "totalSeconds": 133.289,
+          "percent": 5.17,
+          "text": "2 mins"
+        },
+        {
+          "name": "TypeScript",
+          "totalSeconds": 8.385,
+          "percent": 0.33,
+          "text": "8 secs"
+        },
+        {
+          "name": "Markdown",
+          "totalSeconds": 0.974,
+          "percent": 0.04,
+          "text": "0 secs"
+        }
+      ]
     },
     {
       "date": "2026-08-27",
