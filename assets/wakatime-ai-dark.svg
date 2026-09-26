@@ -65,7 +65,7 @@
       <path d="m8 6-6 6 6 6" />
     </svg>
     <text class="metric-row-label" x="70" y="0">Line Changes</text>
-    <text class="metric-row-value" x="252" y="0" text-anchor="end">3,923</text>
+    <text class="metric-row-value" x="252" y="0" text-anchor="end">3,924</text>
   </g>
   <g>
     <circle cx="382" cy="122" r="48" fill="none" stroke="#2f3549" stroke-width="12" />
