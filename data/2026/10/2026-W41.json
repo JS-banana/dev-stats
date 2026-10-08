@@ -1,18 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-07T07:15:39.289Z",
+  "generatedAt": "2026-10-08T07:26:34.407Z",
   "week": {
     "id": "2026-W41",
     "start": "2026-10-05",
     "end": "2026-10-11"
   },
   "totals": {
-    "totalSeconds": 0,
-    "humanReadable": "0 mins",
-    "dailyAverageSeconds": 0,
-    "humanReadableDailyAverage": "0 mins"
+    "totalSeconds": 239.979815,
+    "humanReadable": "4 mins",
+    "dailyAverageSeconds": 34.282830714285716,
+    "humanReadableDailyAverage": "1 min"
   },
-  "languages": [],
+  "languages": [
+    {
+      "name": "Other",
+      "totalSeconds": 239.979815,
+      "percent": 100,
+      "text": "4 mins"
+    }
+  ],
   "ai": {
     "additions": 0,
     "deletions": 0,
@@ -76,8 +83,8 @@
     },
     {
       "date": "2026-10-07",
-      "totalSeconds": 0,
-      "humanReadable": "0 secs",
+      "totalSeconds": 239.979815,
+      "humanReadable": "3 mins",
       "ai": {
         "additions": 0,
         "deletions": 0,
@@ -94,7 +101,14 @@
         "sessions": 0,
         "agents": []
       },
-      "languages": []
+      "languages": [
+        {
+          "name": "Other",
+          "totalSeconds": 239.979815,
+          "percent": 100,
+          "text": "3 mins"
+        }
+      ]
     },
     {
       "date": "2026-10-08",

@@ -27,4 +27,11 @@
   <rect class="card" x="0.5" y="0.5" width="494" height="167" rx="6" />
   <text class="title" x="25" y="34">Weekly Coding Stats</text>
   
+  <g transform="translate(0 76)">
+    <text class="label" x="25" y="0">Other</text>
+    <text class="time" x="138" y="0">4 mins</text>
+    <rect class="bar-bg" x="236" y="-10" width="150" height="8" rx="4" />
+    <rect class="blue" x="236" y="-10" width="150" height="8" rx="4" />
+    <text class="percent" x="460" y="0" text-anchor="end">100.0%</text>
+  </g>
 </svg>
